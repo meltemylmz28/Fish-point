@@ -20,3 +20,12 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/', include('fishing.urls')),
+    path('api/', include('orders.urls')),
+    path('api/', include('users.urls')),  # <-- bunu ekleyin
+]
