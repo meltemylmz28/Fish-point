@@ -50,6 +50,12 @@ dependencies:
   latlong2: ^0.9.1
   geolocator: ^14.0.2
   flutter_nominatim: ^0.0.1+2
+  image_picker: ^1.2.1
+  cached_network_image: ^3.4.1
+  fl_chart: ^1.2.0
+  syncfusion_flutter_charts: ^33.1.49
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
