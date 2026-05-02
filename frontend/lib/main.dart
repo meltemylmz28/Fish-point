@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/providers/theme_provider.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'package:provider/provider.dart'; // MultiProvider ve ChangeNotifierProvider için
+import 'providers/cart_provider.dart';     // CartProvider'ı tanıyabilmesi için
 
 void main() {
-  runApp(const FishPointApp());
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => CartProvider()), // 4.3 aktif edildi[cite: 1]
+        ChangeNotifierProvider(create: (_) => ThemeProvider()),
+      ],
+      child: const FishPointApp(),
+    ),
+  );
 }
 
 class FishPointApp extends StatelessWidget {

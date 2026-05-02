@@ -30,9 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  image_picker: ^1.0.7  # Tam olarak 'flutter:' ile aynı hizada olmalı
   cupertino_icons: ^1.0.8
   
   # API istekleri için
@@ -42,7 +40,7 @@ dependencies:
   provider: ^6.1.0
   
   # Token ve veri saklamak için
-  shared_preferences: ^2.2.0
+  shared_preferences: ^2.5.5
   
   # Güvenli token saklama
   flutter_secure_storage: ^9.0.0
@@ -50,12 +48,12 @@ dependencies:
   latlong2: ^0.9.1
   geolocator: ^14.0.2
   flutter_nominatim: ^0.0.1+2
-  image_picker: ^1.2.1
   cached_network_image: ^3.4.1
   fl_chart: ^1.2.0
   syncfusion_flutter_charts: ^33.1.49
   intl: ^0.20.2
   url_launcher: ^6.3.2
+  google_maps_flutter: ^2.17.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
