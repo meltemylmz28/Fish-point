@@ -1,16 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/providers/theme_provider.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:provider/provider.dart'; // MultiProvider ve ChangeNotifierProvider için
-import 'providers/cart_provider.dart';     // CartProvider'ı tanıyabilmesi için
+import 'package:provider/provider.dart';
+
+// Provider importları[cite: 1]
+import 'providers/auth_provider.dart';
+import 'providers/spot_provider.dart';
+import 'providers/cart_provider.dart';
+import 'providers/theme_provider.dart';
 
 void main() {
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => CartProvider()), // 4.3 aktif edildi[cite: 1]
-        ChangeNotifierProvider(create: (_) => ThemeProvider()),
+        ChangeNotifierProvider(create: (_) => AuthProvider()),   // 4.1 Aktif[cite: 1]
+        ChangeNotifierProvider(create: (_) => SpotProvider()),   // 4.2 Aktif[cite: 1]
+        ChangeNotifierProvider(create: (_) => CartProvider()),   // 4.3 Aktif[cite: 1]
+        ChangeNotifierProvider(create: (_) => ThemeProvider()),   // 4.4 Aktif[cite: 1]
       ],
       child: const FishPointApp(),
     ),
@@ -22,14 +28,25 @@ class FishPointApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Tema değişikliğini anlık dinlemek için provider'ı bağladık[cite: 1]
+    final themeProvider = Provider.of<ThemeProvider>(context);
+
     return MaterialApp(
       title: 'Fish-point',
+      debugShowCheckedModeBanner: false,
+      // Tema modu provider'dan gelen veriye göre değişir
+      themeMode: themeProvider.isDarkMode ? ThemeMode.dark : ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
         useMaterial3: true,
+        colorSchemeSeed: Colors.blue,
+        brightness: Brightness.light,
+      ),
+      darkTheme: ThemeData(
+        useMaterial3: true,
+        colorSchemeSeed: Colors.blue,
+        brightness: Brightness.dark,
       ),
       home: const AdviceScreen(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -60,7 +77,7 @@ class _AdviceScreenState extends State<AdviceScreen> {
     });
 
     try {
-      // Windows için localhost, Android emülatör için 10.0.2.2
+      // Önemli Not: Android Emülatör kullanıyorsan 127.0.0.1 yerine 10.0.2.2 yazmalısın[cite: 1]
       final response = await http.get(
         Uri.parse('http://127.0.0.1:8000/api/advice/1/'),
         headers: {'Content-Type': 'application/json'},
@@ -69,19 +86,19 @@ class _AdviceScreenState extends State<AdviceScreen> {
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
         setState(() {
-          advice = data['advice'];
-          spotName = data['spot_name'];
+          advice = data['advice'] ?? "Tavsiye bulunamadı.";
+          spotName = data['spot_name'] ?? "Bilinmeyen Bölge";
           isLoading = false;
         });
       } else {
         setState(() {
-          errorMessage = 'Hata: ${response.statusCode}';
+          errorMessage = 'Sunucu Hatası: ${response.statusCode}';
           isLoading = false;
         });
       }
     } catch (e) {
       setState(() {
-        errorMessage = 'Bağlantı hatası: $e\n\nDjango sunucusu çalışıyor mu?\nhttp://127.0.0.1:8000/api/advice/1/';
+        errorMessage = 'Bağlantı hatası: $e\n\nLütfen Django sunucusunun çalıştığından emin ol.';
         isLoading = false;
       });
     }
@@ -91,15 +108,19 @@ class _AdviceScreenState extends State<AdviceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('🐟 Fish-point | Balıkçılık Danışmanı'),
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
+        title: const Text('🐟 Fish-point'),
         centerTitle: true,
         actions: [
+          // Tema değiştirme butonu testi için[cite: 1]
+          IconButton(
+            icon: Icon(context.watch<ThemeProvider>().isDarkMode
+              ? Icons.light_mode
+              : Icons.dark_mode),
+            onPressed: () => context.read<ThemeProvider>().toggleTheme(),
+          ),
           IconButton(
             icon: const Icon(Icons.refresh),
             onPressed: fetchAdvice,
-            tooltip: 'Yenile',
           ),
         ],
       ),
@@ -109,39 +130,26 @@ class _AdviceScreenState extends State<AdviceScreen> {
           padding: const EdgeInsets.all(16.0),
           child: Center(
             child: isLoading
-                ? const Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      CircularProgressIndicator(),
-                      SizedBox(height: 16),
-                      Text('Tavsiye alınıyor...'),
-                    ],
-                  )
+                ? const CircularProgressIndicator()
                 : errorMessage != null
-                    ? Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          const Icon(Icons.error_outline, size: 64, color: Colors.red),
-                          const SizedBox(height: 16),
-                          Text(
-                            errorMessage!,
-                            textAlign: TextAlign.center,
-                            style: const TextStyle(color: Colors.red),
-                          ),
-                          const SizedBox(height: 24),
-                          ElevatedButton.icon(
-                            onPressed: fetchAdvice,
-                            icon: const Icon(Icons.refresh),
-                            label: const Text('Tekrar Dene'),
-                          ),
-                        ],
+                    ? SingleChildScrollView(
+                        physics: const AlwaysScrollableScrollPhysics(),
+                        child: Column(
+                          children: [
+                            const Icon(Icons.cloud_off, size: 64, color: Colors.grey),
+                            const SizedBox(height: 16),
+                            Text(errorMessage!, textAlign: TextAlign.center),
+                            ElevatedButton(
+                              onPressed: fetchAdvice,
+                              child: const Text('Tekrar Dene'),
+                            ),
+                          ],
+                        ),
                       )
                     : SingleChildScrollView(
+                        physics: const AlwaysScrollableScrollPhysics(),
                         child: Card(
                           elevation: 4,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(16),
-                          ),
                           child: Padding(
                             padding: const EdgeInsets.all(20.0),
                             child: Column(
@@ -151,23 +159,16 @@ class _AdviceScreenState extends State<AdviceScreen> {
                                   children: [
                                     const Icon(Icons.location_on, color: Colors.blue),
                                     const SizedBox(width: 8),
-                                    Text(
-                                      spotName,
-                                      style: const TextStyle(
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.bold,
+                                    Expanded(
+                                      child: Text(
+                                        spotName,
+                                        style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                                       ),
                                     ),
                                   ],
                                 ),
                                 const Divider(height: 24),
-                                Text(
-                                  advice,
-                                  style: const TextStyle(
-                                    fontSize: 16,
-                                    height: 1.6,
-                                  ),
-                                ),
+                                Text(advice, style: const TextStyle(fontSize: 16, height: 1.5)),
                               ],
                             ),
                           ),

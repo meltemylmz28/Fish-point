@@ -1,18 +1,30 @@
 from django.db import models
 
-# Create your models here.
-from django.db import models
-
 
 class FishingSpot(models.Model):
+    # Temel Bilgiler
     name = models.CharField(max_length=200, verbose_name="Mera Adı")
     district = models.CharField(max_length=100, verbose_name="İlçe")
+    neighborhood = models.CharField(max_length=100, null=True, blank=True, verbose_name="Mahalle")
+
+    # Koordinatlar
     lat = models.FloatField(verbose_name="Enlem")
     lng = models.FloatField(verbose_name="Boylam")
+
+    # Mera Analiz Parametreleri
+    spot_type = models.CharField(max_length=50, null=True, blank=True, verbose_name="Mera Tipi")
+    water_type = models.CharField(max_length=50, null=True, blank=True, verbose_name="Su Tipi")
+    min_pressure = models.FloatField(default=1000.0, verbose_name="İdeal Min Basınç (hPa)")
+    max_pressure = models.FloatField(default=1030.0, verbose_name="İdeal Max Basınç (hPa)")
+    min_temp = models.FloatField(default=5.0, verbose_name="İdeal Min Sıcaklık (°C)")
+    max_temp = models.FloatField(default=30.0, verbose_name="İdeal Max Sıcaklık (°C)")
+
+    # LLM & Bilgi Alanları
+    ai_base_advice = models.TextField(blank=True, null=True, verbose_name="AI Temel Tavsiyesi")
     description = models.TextField(blank=True, null=True, verbose_name="Açıklama")
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.district})"
 
     class Meta:
         verbose_name = "Mera"

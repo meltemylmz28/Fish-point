@@ -1,0 +1,1623 @@
+{
+  "aladag": [
+    {
+      "id": "aladag_001",
+      "mera_adi": "Zamantı Irmağı Eğner",
+      "konum": { "ilce": "Aladağ", "mahalle": "Eğner", "koordinat": "37.270 N 35.890 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali", "Sazan", "Yayın", "Turna", "Siraz"], "ideal_basinc_hpa": { "min": 1010, "max": 1020 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımlarında ve kaya arkalarında avlan."
+    },
+    {
+      "id": "aladag_002",
+      "mera_adi": "Kömüroluğu Göleti",
+      "konum": { "ilce": "Aladağ", "mahalle": "Kömüroluğu", "koordinat": "37.285 N 35.910 E", "tip": "Gölet" },
+      "analiz": { "yaygin_turler": ["Sazan", "Aynalı Sazan"], "ideal_basinc_hpa": { "min": 1008, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sakin sularda yemleme ile sazan avını artırın."
+    },
+    {
+      "id": "aladag_003",
+      "mera_adi": "Zamantı Akıntı Yatağı",
+      "konum": { "ilce": "Aladağ", "mahalle": "Zamantı", "koordinat": "37.275 N 35.895 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Kefal", "Tatlı Su Levreği"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 13, "max": 25 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntının yavaşladığı dönemeçleri hedefleyin."
+    },
+    {
+      "id": "aladag_004",
+      "mera_adi": "Küp Deresi",
+      "konum": { "ilce": "Aladağ", "mahalle": "Küp", "koordinat": "37.260 N 35.830 E", "tip": "Dere" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1012, "max": 1023 }, "ideal_sicaklik_c": { "min": 8, "max": 19 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Soğuk su tercih eden alabalık için sabah saatleri idealdir."
+    },
+    {
+      "id": "aladag_005",
+      "mera_adi": "Akpınar Kıyı Hattı",
+      "konum": { "ilce": "Aladağ", "mahalle": "Akpınar", "koordinat": "37.300 N 35.930 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Sudak", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sudak için saz araları ve gece avı etkilidir."
+    },
+    {
+      "id": "aladag_006",
+      "mera_adi": "Boztahta Koyu",
+      "konum": { "ilce": "Aladağ", "mahalle": "Boztahta", "koordinat": "37.290 N 35.940 E", "tip": "Baraj Koyu" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Durgun koylarda yemleme yaparak sazan bekleyin."
+    },
+    {
+      "id": "aladag_007",
+      "mera_adi": "Topallı Mevkii",
+      "konum": { "ilce": "Aladağ", "mahalle": "Topallı", "koordinat": "37.310 N 35.950 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Sudak", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Rüzgarlı havalarda sudak kıyıya yaklaşır."
+    },
+    {
+      "id": "aladag_008",
+      "mera_adi": "Uzunkuyu Kıyısı",
+      "konum": { "ilce": "Aladağ", "mahalle": "Uzunkuyu", "koordinat": "37.320 N 35.960 E", "tip": "Baraj Hattı" },
+      "analiz": { "yaygin_turler": ["Sudak", "Yayın"], "ideal_basinc_hpa": { "min": 1005, "max": 1017 }, "ideal_sicaklik_c": { "min": 13, "max": 25 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Yayın için gece dip oltası kurun."
+    },
+    {
+      "id": "aladag_009",
+      "mera_adi": "Posyağbasan Deresi",
+      "konum": { "ilce": "Aladağ", "mahalle": "Posyağbasan", "koordinat": "37.240 N 35.840 E", "tip": "Dere" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1013, "max": 1024 }, "ideal_sicaklik_c": { "min": 7, "max": 18 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Sinek takımı ile alabalık avı başarılıdır."
+    },
+    {
+      "id": "aladag_010",
+      "mera_adi": "Kıcak Gözesi",
+      "konum": { "ilce": "Aladağ", "mahalle": "Kıcak", "koordinat": "37.255 N 35.875 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1011, "max": 1022 }, "ideal_sicaklik_c": { "min": 10, "max": 21 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Berrak suda ince misina ve küçük kanca kullanın."
+    },
+    {
+      "id": "aladag_011",
+      "mera_adi": "Kızıldam Çayı",
+      "konum": { "ilce": "Aladağ", "mahalle": "Kızıldam", "koordinat": "37.265 N 35.850 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Alabalık"], "ideal_basinc_hpa": { "min": 1014, "max": 1025 }, "ideal_sicaklik_c": { "min": 6, "max": 17 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Döküntü alanları alabalık için saklanma noktasıdır."
+    },
+    {
+      "id": "aladag_012",
+      "mera_adi": "Yetimli Dereleri",
+      "konum": { "ilce": "Aladağ", "mahalle": "Yetimli", "koordinat": "37.230 N 35.820 E", "tip": "Dağ Deresi" },
+      "analiz": { "yaygin_turler": ["Küçük Alabalık"], "ideal_basinc_hpa": { "min": 1012, "max": 1024 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Hafif ekipmanla sessizce yaklaşın."
+    },
+    {
+      "id": "aladag_013",
+      "mera_adi": "Karahan Akarsu Yolu",
+      "konum": { "ilce": "Aladağ", "mahalle": "Karahan", "koordinat": "37.280 N 35.905 E", "tip": "Akarsu Hattı" },
+      "analiz": { "yaygin_turler": ["Kefal", "Alabalık"], "ideal_basinc_hpa": { "min": 1011, "max": 1022 }, "ideal_sicaklik_c": { "min": 9, "max": 20 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Farklı türler için karma yem kullanın."
+    },
+    {
+      "id": "aladag_014",
+      "mera_adi": "Sinanpaşa Mevkii",
+      "konum": { "ilce": "Aladağ", "mahalle": "Sinanpaşa", "koordinat": "37.295 N 35.915 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Kefal"], "ideal_basinc_hpa": { "min": 1009, "max": 1020 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kefal için ekmek hamuru veya mısır kullanın."
+    },
+    {
+      "id": "aladag_015",
+      "mera_adi": "Mansurlu Hattı",
+      "konum": { "ilce": "Aladağ", "mahalle": "Mansurlu", "koordinat": "37.305 N 35.925 E", "tip": "Akarsu Yatağı" },
+      "analiz": { "yaygin_turler": ["Kefal", "Alabalık"], "ideal_basinc_hpa": { "min": 1010, "max": 1021 }, "ideal_sicaklik_c": { "min": 10, "max": 22 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Serin sularda alabalık, ılık sularda kefal aktiftir."
+    }
+  ] ,
+  "ceyhan": [
+    {
+      "id": "ceyhan_001",
+      "mera_adi": "Ceyhan Deniz Ağzı",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Delta", "koordinat": "36.950 N 35.740 E", "tip": "Delta" },
+      "analiz": { "yaygin_turler": ["Levrek", "Çupra", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1022 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "delta", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Gün batımı levrek için en verimli zaman."
+    },
+    {
+      "id": "ceyhan_002",
+      "mera_adi": "Sirkenli Akarsu Yatağı",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Sirkenli", "koordinat": "36.980 N 35.710 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1005, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dip oltasıyla yayın hedeflenmeli."
+    },
+    {
+      "id": "ceyhan_003",
+      "mera_adi": "Mercimek Akıntı Kırımı",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Mercimek", "koordinat": "37.000 N 35.690 E", "tip": "Nehir Dirseği" },
+      "analiz": { "yaygin_turler": ["Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1019 }, "ideal_sicaklik_c": { "min": 13, "max": 25 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar yayın için idealdir."
+    },
+    {
+      "id": "ceyhan_004",
+      "mera_adi": "Aslanlı Damı",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Aslanlı", "koordinat": "37.020 N 35.680 E", "tip": "Durgun Akarsu" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Durgun sularda yemleme yaparak sazan bekleyin."
+    },
+    {
+      "id": "ceyhan_005",
+      "mera_adi": "Mustafabeyli Baraj Gölü",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Mustafabeyli", "koordinat": "37.050 N 35.670 E", "tip": "Baraj Gölü" },
+      "analiz": { "yaygin_turler": ["Sazan", "Siraz", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Siraz için küçük kanca ve kurtçuğa yönelin."
+    },
+    {
+      "id": "ceyhan_006",
+      "mera_adi": "Hamdilli Kıyısı",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Hamdilli", "koordinat": "37.070 N 35.660 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sazlık alanlar sazan için doğal saklanma yeridir."
+    },
+    {
+      "id": "ceyhan_007",
+      "mera_adi": "Kurtpınarı Mevkii",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Kurtpınarı", "koordinat": "37.040 N 35.700 E", "tip": "Baraj" },
+      "analiz": { "yaygin_turler": ["Sazan", "Yayın"], "ideal_basinc_hpa": { "min": 1005, "max": 1017 }, "ideal_sicaklik_c": { "min": 13, "max": 25 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Yayın için gece avı ve canlı yem tercih edin."
+    },
+    {
+      "id": "ceyhan_008",
+      "mera_adi": "Doruk Dereleri",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Doruk", "koordinat": "36.960 N 35.730 E", "tip": "Küçük Akarsu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sığ sularda sessiz olun ve hafif takım kullanın."
+    },
+    {
+      "id": "ceyhan_009",
+      "mera_adi": "Kösreli Sulama Hattı",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Kösreli", "koordinat": "37.010 N 35.720 E", "tip": "Sulama Kanalı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sulama durduğunda durgun kesimleri hedefleyin."
+    },
+    {
+      "id": "ceyhan_010",
+      "mera_adi": "Büyükmangıt Nehir Boyu",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Büyükmangıt", "koordinat": "37.030 N 35.690 E", "tip": "Nehir Hattı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Nehir kıvrımlarında yayın yoğunluğu artar."
+    },
+    {
+      "id": "ceyhan_011",
+      "mera_adi": "Aydınlar Sahil Bandı",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Aydınlar", "koordinat": "36.940 N 35.750 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Çupra"], "ideal_basinc_hpa": { "min": 1008, "max": 1023 }, "ideal_sicaklik_c": { "min": 16, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Kayalık alanlar levrek için av noktasıdır."
+    },
+    {
+      "id": "ceyhan_012",
+      "mera_adi": "Değirmenciuşağı Mevkii",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Değirmenciuşağı", "koordinat": "36.990 N 35.700 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Kefal", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dip akıntısının yavaşladığı noktaları seçin."
+    },
+    {
+      "id": "ceyhan_013",
+      "mera_adi": "İmamoğlu-Ceyhan Sınırı",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Sınır Hattı", "koordinat": "37.060 N 35.650 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "İl sınırındaki durgun sularda sazan avlayın."
+    },
+    {
+      "id": "ceyhan_014",
+      "mera_adi": "Vayvaylı Mevkii",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Vayvaylı", "koordinat": "37.045 N 35.685 E", "tip": "Nehir Yatağı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Vayvaylı, Ceyhan Nehri yatağında yayın ve sazan için idealdir."
+    },
+    {
+      "id": "ceyhan_015",
+      "mera_adi": "Kütüklü Mevkii",
+      "konum": { "ilce": "Ceyhan", "mahalle": "Kütüklü", "koordinat": "37.035 N 35.695 E", "tip": "Nehir Yatağı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kütüklü, Ceyhan Nehri'nin sakin sularında sazan ve kefal avlayın."
+    }
+  ],
+  "cukurova": [
+    {
+      "id": "cukurova_001",
+      "mera_adi": "Menderes Adası Civarı",
+      "konum": { "ilce": "Çukurova", "mahalle": "Karslılar", "koordinat": "36.985 N 35.255 E", "tip": "Ada Kenarı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Sudak", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1022 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Ada çevresindeki durgun sularda sazan avlayın."
+    },
+    {
+      "id": "cukurova_002",
+      "mera_adi": "Kurttepe Kıyı Bandı",
+      "konum": { "ilce": "Çukurova", "mahalle": "Kurttepe", "koordinat": "36.990 N 35.265 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Sudak", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1021 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kayalık kıyılarda levrek için sahte yem kullanın."
+    },
+    {
+      "id": "cukurova_003",
+      "mera_adi": "Güzelyalı Burun",
+      "konum": { "ilce": "Çukurova", "mahalle": "Güzelyalı", "koordinat": "36.995 N 35.275 E", "tip": "Burun" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1009, "max": 1023 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Burun rüzgar kıranında kefal yoğunluğu artar."
+    },
+    {
+      "id": "cukurova_004",
+      "mera_adi": "Kabasakal Köyü Altı",
+      "konum": { "ilce": "Çukurova", "mahalle": "Kabasakal", "koordinat": "36.980 N 35.245 E", "tip": "Baraj Batı Yakası" },
+      "analiz": { "yaygin_turler": ["Sudak", "Yayın"], "ideal_basinc_hpa": { "min": 1005, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Yayın için gece dip oltası kurun."
+    },
+    {
+      "id": "cukurova_005",
+      "mera_adi": "Karahan Akıntı Kırımı",
+      "konum": { "ilce": "Çukurova", "mahalle": "Karahan", "koordinat": "36.970 N 35.240 E", "tip": "Nehir Hattı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Kefal", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1019 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar yayın için idealdir."
+    },
+    {
+      "id": "cukurova_006",
+      "mera_adi": "Pirili Deresi Ağzı",
+      "konum": { "ilce": "Çukurova", "mahalle": "Pirili", "koordinat": "36.965 N 35.230 E", "tip": "Baraj Besleme Kolu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali", "Yayın"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dere ağzında oksijen seviyesi yüksektir, balık aktiftir."
+    },
+    {
+      "id": "cukurova_007",
+      "mera_adi": "Örcün Kıyı Şeridi",
+      "konum": { "ilce": "Çukurova", "mahalle": "Örcün", "koordinat": "36.975 N 35.260 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sazlık alanlar sazan için doğal saklanma yeridir."
+    },
+    {
+      "id": "cukurova_008",
+      "mera_adi": "Salbaş Akarsu Yatağı",
+      "konum": { "ilce": "Çukurova", "mahalle": "Salbaş", "koordinat": "36.960 N 35.220 E", "tip": "Dere Yatağı" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sığ sularda sessiz olun ve hafif takım kullanın."
+    },
+    {
+      "id": "cukurova_009",
+      "mera_adi": "Kocatepe Mevkii",
+      "konum": { "ilce": "Çukurova", "mahalle": "Kocatepe", "koordinat": "36.985 N 35.250 E", "tip": "Baraj Sığlığı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Sudak"], "ideal_basinc_hpa": { "min": 1007, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sudak için saz araları ve gece avı etkilidir."
+    },
+    {
+      "id": "cukurova_010",
+      "mera_adi": "Kaşoba Koyu",
+      "konum": { "ilce": "Çukurova", "mahalle": "Kaşoba", "koordinat": "36.970 N 35.250 E", "tip": "Baraj Koyu" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Durgun koylarda gece yayın avı yapın."
+    },
+    {
+      "id": "cukurova_011",
+      "mera_adi": "Dörtler Mevkii",
+      "konum": { "ilce": "Çukurova", "mahalle": "Dörtler", "koordinat": "37.020 N 35.350 E", "tip": "Baraj Koyu" },
+      "analiz": { "yaygin_turler": ["Sazan", "Aynalı Sazan"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dörtler mevkiinde durgun sularda aynalı sazan için mısır kullanın."
+    },
+    {
+      "id": "cukurova_012",
+      "mera_adi": "Doğu Köprüsü (01250 Çukurova)",
+      "konum": { "ilce": "Çukurova", "mahalle": "Doğu Köprüsü", "koordinat": "36.985 N 35.300 E", "tip": "Nehir Bölgesi" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Doğu Köprüsü ayakları yayın ve sazan için ideal saklanma noktasıdır."
+    },
+    {
+      "id": "cukurova_013",
+      "mera_adi": "Topalak Mevkii",
+      "konum": { "ilce": "Çukurova", "mahalle": "Topalak", "koordinat": "36.990 N 35.310 E", "tip": "Nehir Bölgesi" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Topalak mevkiinde akıntının yavaşladığı noktalarda sazan avlayın."
+    },
+    {
+      "id": "cukurova_014",
+      "mera_adi": "Batı Köprüsü (01170 Çukurova)",
+      "konum": { "ilce": "Çukurova", "mahalle": "Batı Köprüsü", "koordinat": "36.980 N 35.290 E", "tip": "Nehir Bölgesi" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Batı Köprüsü altındaki derin çukurlar yayın için idealdir."
+    }
+  ],
+ 
+  "feke": [
+    {
+      "id": "feke_001",
+      "mera_adi": "Göksu Irmağı Hattı",
+      "konum": { "ilce": "Feke", "mahalle": "Göksu", "koordinat": "37.820 N 35.910 E", "tip": "Nehir Yatağı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 8, "max": 20 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Soğuk su alabalığı için sabah erken saatleri tercih edin."
+    },
+    {
+      "id": "feke_002",
+      "mera_adi": "Feke-1 Baraj Gölü",
+      "konum": { "ilce": "Feke", "mahalle": "Baraj Sahası", "koordinat": "37.840 N 35.920 E", "tip": "Baraj Gölü" },
+      "analiz": { "yaygin_turler": ["Sazan", "Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Barajın derin bölgelerinde yayın için gece avı yapın."
+    },
+    {
+      "id": "feke_003",
+      "mera_adi": "Tapan Çayı Mevkii",
+      "konum": { "ilce": "Feke", "mahalle": "Tapan", "koordinat": "37.800 N 35.890 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 9, "max": 21 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Akıntının yavaşladığı dönemeçlerde alabalık yakalayın."
+    },
+    {
+      "id": "feke_004",
+      "mera_adi": "Yeşil Düşmüş Mevkii",
+      "konum": { "ilce": "Feke", "mahalle": "Yeşil Düşmüş", "koordinat": "37.860 N 35.940 E", "tip": "Dağ Deresi" },
+      "analiz": { "yaygin_turler": ["Kırmızı Benekli Alabalık"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Sinek takımı ile kırmızı benekli alabalık avlayın."
+    },
+    {
+      "id": "feke_005",
+      "mera_adi": "Bahçecik Dereleri",
+      "konum": { "ilce": "Feke", "mahalle": "Bahçecik", "koordinat": "37.830 N 35.900 E", "tip": "Yüksek Rakım Deresi" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1012, "max": 1024 }, "ideal_sicaklik_c": { "min": 6, "max": 17 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Hafif ekipmanla sessizce yaklaşın, alabalık ürkektir."
+    },
+    {
+      "id": "feke_006",
+      "mera_adi": "Gedikli Kıyı Şeridi",
+      "konum": { "ilce": "Feke", "mahalle": "Gedikli", "koordinat": "37.810 N 35.880 E", "tip": "Nehir Kenarı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 10, "max": 22 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Kıyıya yakın döküntü alanları balık için saklanma noktasıdır."
+    },
+    {
+      "id": "feke_007",
+      "mera_adi": "Oruçlu Akıntı Kırımı",
+      "konum": { "ilce": "Feke", "mahalle": "Oruçlu", "koordinat": "37.790 N 35.870 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar yayın için idealdir."
+    },
+    {
+      "id": "feke_008",
+      "mera_adi": "Konakkurulu Gözesi",
+      "konum": { "ilce": "Feke", "mahalle": "Konakkurulu", "koordinat": "37.850 N 35.930 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 11, "max": 22 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Berrak suda ince misina ve küçük kanca kullanın."
+    },
+    {
+      "id": "feke_009",
+      "mera_adi": "Mansurlu Sınır Hattı",
+      "konum": { "ilce": "Feke", "mahalle": "Mansurlu", "koordinat": "37.870 N 35.950 E", "tip": "Akarsu Hattı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 8, "max": 19 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Serin sularda alabalık, ılık sularda kefal aktiftir."
+    },
+    {
+      "id": "feke_010",
+      "mera_adi": "Kısacıklı Deresi",
+      "konum": { "ilce": "Feke", "mahalle": "Kısacıklı", "koordinat": "37.780 N 35.860 E", "tip": "Küçük Dere" },
+      "analiz": { "yaygin_turler": ["Kefal"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 13, "max": 25 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kefal için ekmek hamuru veya mısır kullanın."
+    },
+    {
+      "id": "feke_011",
+      "mera_adi": "Kaleyüzü Mevkii",
+      "konum": { "ilce": "Feke", "mahalle": "Kaleyüzü", "koordinat": "37.840 N 35.910 E", "tip": "Baraj Girişi" },
+      "analiz": { "yaygin_turler": ["Sazan", "Yayın"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 13, "max": 25 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Baraj girişindeki oksijenli suda balık hareketi artar."
+    },
+    {
+      "id": "feke_012",
+      "mera_adi": "Tortulu Akarsu Yatağı",
+      "konum": { "ilce": "Feke", "mahalle": "Tortulu", "koordinat": "37.880 N 35.960 E", "tip": "Yüksek Rakım Akarsu" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 4, "max": 15 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Çok soğuk sularda alabalık için doğal yem kullanın."
+    }
+  ],
+  "imamoglu": [
+    {
+      "id": "imamoglu_001",
+      "mera_adi": "Sevinçli Göleti",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Sevinçli", "koordinat": "37.255 N 35.655 E", "tip": "Sulama Göleti" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sakin gölet sularda yemleme yaparak sazan avlayın."
+    },
+    {
+      "id": "imamoglu_002",
+      "mera_adi": "Çakal Deresi Mevkii",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Çakal Deresi", "koordinat": "37.265 N 35.645 E", "tip": "Akarsu Hattı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dip oltasıyla yayın ve sazan hedeflenmeli."
+    },
+    {
+      "id": "imamoglu_003",
+      "mera_adi": "Ufacık Kıyı Şeridi",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Ufacık", "koordinat": "37.245 N 35.665 E", "tip": "Dere Kenarı" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sığ sularda sessiz olun ve hafif takım kullanın."
+    },
+    {
+      "id": "imamoglu_004",
+      "mera_adi": "Ayvalı Göleti",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Ayvalı", "koordinat": "37.275 N 35.635 E", "tip": "İç Su Göleti" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Göletin durgun köşelerinde sazan bekleyin."
+    },
+    {
+      "id": "imamoglu_005",
+      "mera_adi": "Sayca Akış Yatağı",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Sayca", "koordinat": "37.285 N 35.625 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntının yavaşladığı noktalar yayın için idealdir."
+    },
+    {
+      "id": "imamoglu_006",
+      "mera_adi": "Hacıhasanlı Civarı",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Hacıhasanlı", "koordinat": "37.240 N 35.680 E", "tip": "Sulama Kanalı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sulama durduğunda durgun kesimleri hedefleyin."
+    },
+    {
+      "id": "imamoglu_007",
+      "mera_adi": "Çatallı Mevkii",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Çatallı", "koordinat": "37.260 N 35.650 E", "tip": "Dere ve Gölet" },
+      "analiz": { "yaygin_turler": ["Sazan"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dere ile gölet birleşim noktasında sazan yoğunluğu artar."
+    },
+    {
+      "id": "imamoglu_008",
+      "mera_adi": "Aliler Akıntı Kırımı",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Aliler", "koordinat": "37.270 N 35.640 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 13, "max": 25 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar kefal için beslenme alanıdır."
+    },
+    {
+      "id": "imamoglu_009",
+      "mera_adi": "Danacılı Kıyıları",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Danacılı", "koordinat": "37.250 N 35.670 E", "tip": "Su Birikintisi" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Durgun sularda sazan için mısır ve ekmek hamuru kullanın."
+    },
+    {
+      "id": "imamoglu_010",
+      "mera_adi": "Görbeyaz Mevkii",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Görbeyaz", "koordinat": "37.280 N 35.630 E", "tip": "Dere Yatağı" },
+      "analiz": { "yaygin_turler": ["Kefal", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Yayın için gece avı ve canlı yem tercih edin."
+    },
+    {
+      "id": "imamoglu_011",
+      "mera_adi": "Fatih Mahallesi Kanalları",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Fatih", "koordinat": "37.255 N 35.660 E", "tip": "Merkez Kanalı" },
+      "analiz": { "yaygin_turler": ["Sazan"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 30 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Şehir içi kanallarda sabah erken saatlerde avlanın."
+    },
+    {
+      "id": "imamoglu_012",
+      "mera_adi": "Üçtepe Göze Hattı",
+      "konum": { "ilce": "İmamoğlu", "mahalle": "Üçtepe", "koordinat": "37.290 N 35.620 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 11, "max": 23 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Berrak kaynak suyunda ince misina ve küçük kanca kullanın."
+    }
+  ],
+  "karatas": [
+    {
+      "id": "karatas_001",
+      "mera_adi": "Ağyatan Lagün Geçişi",
+      "konum": { "ilce": "Karataş", "mahalle": "Ağyatan", "koordinat": "36.650 N 35.380 E", "tip": "Lagün" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal", "Mırmır"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 16, "max": 30 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Akıntı artışı levrek aktivitesini yükseltir."
+    },
+    {
+      "id": "karatas_002",
+      "mera_adi": "Tabaklar Sahil Bandı",
+      "konum": { "ilce": "Karataş", "mahalle": "Tabaklar", "koordinat": "36.660 N 35.390 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Çupra", "Mırmır", "Sargoz"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Dip oltası ile mırmır avı yapılmalı."
+    },
+    {
+      "id": "karatas_003",
+      "mera_adi": "Orman Altı Meraları",
+      "konum": { "ilce": "Karataş", "mahalle": "Orman Altı", "koordinat": "36.670 N 35.400 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Karakulak"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 17, "max": 29 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Kayalık alanlar levrek ve karakulak için idealdir."
+    },
+    {
+      "id": "karatas_004",
+      "mera_adi": "Yüzbaşı İskele Yanı",
+      "konum": { "ilce": "Karataş", "mahalle": "Yüzbaşı", "koordinat": "36.640 N 35.370 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 16, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "İskele çevresinde levrek için sahte yem kullanın."
+    },
+    {
+      "id": "karatas_005",
+      "mera_adi": "Bahçe Köyü Kıyıları",
+      "konum": { "ilce": "Karataş", "mahalle": "Bahçe Köyü", "koordinat": "36.680 N 35.410 E", "tip": "Sahil Hattı" },
+      "analiz": { "yaygin_turler": ["Mırmır", "Çupra"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Kumluk diplerde mırmır avı verimlidir."
+    },
+    {
+      "id": "karatas_006",
+      "mera_adi": "Helvacı Sahil Hattı",
+      "konum": { "ilce": "Karataş", "mahalle": "Helvacı", "koordinat": "36.655 N 35.385 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Gün batımı levrek için en verimli zamandır."
+    },
+    {
+      "id": "karatas_007",
+      "mera_adi": "İnnepli Lagün Ağzı",
+      "konum": { "ilce": "Karataş", "mahalle": "İnnepli", "koordinat": "36.635 N 35.360 E", "tip": "Lagün Ağzı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Mırmır", "Kefal"], "ideal_basinc_hpa": { "min": 1004, "max": 1019 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Lagün ağzında akıntının hızlandığı noktaları hedefleyin."
+    },
+    {
+      "id": "karatas_008",
+      "mera_adi": "Kumluca Mevkii",
+      "konum": { "ilce": "Karataş", "mahalle": "Kumluca", "koordinat": "36.690 N 35.420 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Çupra", "Sargoz", "Mırmır"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Sargoz için ekmek hamuru ve midye kullanın."
+    },
+    {
+      "id": "karatas_009",
+      "mera_adi": "Adalı Kanal Çıkışı",
+      "konum": { "ilce": "Karataş", "mahalle": "Adalı", "koordinat": "36.645 N 35.375 E", "tip": "Akarsu-Deniz Birleşimi" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Tatlı su-tuzlu su birleşiminde yayın ve sazan aktiftir."
+    },
+    {
+      "id": "karatas_010",
+      "mera_adi": "Tuzla Azap Gölü",
+      "konum": { "ilce": "Karataş", "mahalle": "Tuzla", "koordinat": "36.625 N 35.350 E", "tip": "İç Lagün" },
+      "analiz": { "yaygin_turler": ["Kefal", "Sazan"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Durgun lagün sularda kefal için ekmek hamuru kullanın."
+    },
+    {
+      "id": "karatas_011",
+      "mera_adi": "Hacıhasan Burnu",
+      "konum": { "ilce": "Karataş", "mahalle": "Hacıhasan", "koordinat": "36.700 N 35.430 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Çupra", "Karakulak"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Burun rüzgar kıranında çupra yoğunluğu artar."
+    },
+    {
+      "id": "karatas_012",
+      "mera_adi": "Sirkenli Kıyı Şeridi",
+      "konum": { "ilce": "Karataş", "mahalle": "Sirkenli", "koordinat": "36.665 N 35.395 E", "tip": "Sahil Bandı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Sığ sularda levrek için kaşık yem kullanın."
+    },
+    {
+      "id": "karatas_013",
+      "mera_adi": "Kızıltahta Mevkii",
+      "konum": { "ilce": "Karataş", "mahalle": "Kızıltahta", "koordinat": "36.685 N 35.415 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Mırmır", "Çupra"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Dip oltası ile mırmır avı yapılmalı."
+    },
+    {
+      "id": "karatas_014",
+      "mera_adi": "Meletmez Kıyısı",
+      "konum": { "ilce": "Karataş", "mahalle": "Meletmez", "koordinat": "36.630 N 35.355 E", "tip": "Lagün Hattı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal"], "ideal_basinc_hpa": { "min": 1004, "max": 1019 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Lagün kıyısında levrek için sahte yem kullanın."
+    },
+    {
+      "id": "karatas_015",
+      "mera_adi": "Damlapınar Azmağı",
+      "konum": { "ilce": "Karataş", "mahalle": "Damlapınar", "koordinat": "36.620 N 35.345 E", "tip": "Akarsu-Lagün Birleşimi" },
+      "analiz": { "yaygin_turler": ["Kefal", "Sazan", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Tatlı su girişinde sazan ve yayın yoğunluğu artar."
+    },
+    {
+      "id": "karatas_016",
+      "mera_adi": "Batık Gemi",
+      "konum": { "ilce": "Karataş", "mahalle": "Açık Deniz", "koordinat": "36.650 N 35.400 E", "tip": "Batık" },
+      "analiz": { "yaygin_turler": ["Lüfer", "Levrek", "Karagöz"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu", "ozellik": "batik" },
+      "ai_tavsiye_motoru": "Batık gemi çevresi lüfer ve levrek için doğal saklanma noktasıdır."
+    },
+    {
+      "id": "karatas_017",
+      "mera_adi": "Fener",
+      "konum": { "ilce": "Karataş", "mahalle": "Fener", "koordinat": "36.645 N 35.365 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal", "Çupra"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu", "ozellik": "uc_nokta" },
+      "ai_tavsiye_motoru": "Karataş'ın en uç noktası, akıntı kırımında levrek avlayın."
+    },
+    {
+      "id": "karatas_018",
+      "mera_adi": "Harbiş",
+      "konum": { "ilce": "Karataş", "mahalle": "Harbiş", "koordinat": "36.660 N 35.405 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Mırmır", "Levrek"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu", "ozellik": "genis_kiyi" },
+      "ai_tavsiye_motoru": "Geniş kıyı şeridinde mırmır için dip oltası kullanın."
+    },
+    {
+      "id": "karatas_019",
+      "mera_adi": "Karagöçer Kanalı",
+      "konum": { "ilce": "Karataş", "mahalle": "Karagöçer", "koordinat": "36.635 N 35.350 E", "tip": "Kanal" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal"], "ideal_basinc_hpa": { "min": 1004, "max": 1019 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "brakish", "ozellik": "tatli_su_girisi" },
+      "ai_tavsiye_motoru": "Tatlı suyun denize döküldüğü noktada büyük levrekler için canlı yem kullanın."
+    },
+    {
+      "id": "karatas_020",
+      "mera_adi": "Terliksiz Kıyısı",
+      "konum": { "ilce": "Karataş", "mahalle": "Terliksiz", "koordinat": "36.670 N 35.415 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Mırmır", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Sığ kıyılarda kefal için ekmek hamuru kullanın."
+    },
+    {
+      "id": "karatas_021",
+      "mera_adi": "Yemişli Kıyısı",
+      "konum": { "ilce": "Karataş", "mahalle": "Yemişli", "koordinat": "36.675 N 35.420 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Çupra", "Levrek"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Kayalık kıyılarda levrek için sahte yem kullanın."
+    },
+    {
+      "id": "karatas_022",
+      "mera_adi": "Çukur Kamış",
+      "konum": { "ilce": "Karataş", "mahalle": "Çukur Kamış", "koordinat": "36.640 N 35.360 E", "tip": "Lagün Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal", "Sazan"], "ideal_basinc_hpa": { "min": 1004, "max": 1019 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Sazlık alanlar levrek ve sazan için doğal saklanma yeridir."
+    },
+    {
+      "id": "karatas_023",
+      "mera_adi": "Adalı Kıyıları",
+      "konum": { "ilce": "Karataş", "mahalle": "Adalı", "koordinat": "36.645 N 35.370 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Kefal", "Mırmır"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Adalı kıyılarında kefal için ekmek hamuru kullanın."
+    },
+    {
+      "id": "karatas_024",
+      "mera_adi": "Bebeli Kıyısı",
+      "konum": { "ilce": "Karataş", "mahalle": "Bebeli", "koordinat": "36.655 N 35.390 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Karagöz"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Bebeli'de gece levrek avı yapın."
+    },
+    {
+      "id": "karatas_025",
+      "mera_adi": "Haylazlı Sarı Göl",
+      "konum": { "ilce": "Karataş", "mahalle": "Haylazlı", "koordinat": "36.620 N 35.340 E", "tip": "Lagün" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal", "Levrek"], "ideal_basinc_hpa": { "min": 1004, "max": 1019 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish", "ozellik": "sari_gol" },
+      "ai_tavsiye_motoru": "Sarı Göl'ün durgun sularında sazan ve levrek için yemleme yapın."
+    }
+  ],
+  "kozan": [
+    {
+      "id": "kozan_001",
+      "mera_adi": "Kozan Baraj Kapakları",
+      "konum": { "ilce": "Kozan", "mahalle": "Baraj", "koordinat": "37.500 N 35.820 E", "tip": "Baraj Kapakları" },
+      "analiz": { "yaygin_turler": ["Sudak", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kapak açılışlarında balık hareketi artar, sudak için canlı yem kullanın."
+    },
+    {
+      "id": "kozan_002",
+      "mera_adi": "Dağılcak Dereleri",
+      "konum": { "ilce": "Kozan", "mahalle": "Dağılcak", "koordinat": "37.520 N 35.840 E", "tip": "Akarsu Hattı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 8, "max": 20 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Soğuk su alabalığı için sabah erken saatleri tercih edin."
+    },
+    {
+      "id": "kozan_003",
+      "mera_adi": "Horzum Yaylası Çayı",
+      "konum": { "ilce": "Kozan", "mahalle": "Horzum", "koordinat": "37.540 N 35.860 E", "tip": "Yüksek Rakım Bölgesi" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Sinek takımı ile yerli alabalık avı başarılıdır."
+    },
+    {
+      "id": "kozan_004",
+      "mera_adi": "Çulluuşağı Kıyı Şeridi",
+      "konum": { "ilce": "Kozan", "mahalle": "Çulluuşağı", "koordinat": "37.490 N 35.810 E", "tip": "Baraj Girişi" },
+      "analiz": { "yaygin_turler": ["Sazan", "Yayın"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Baraj girişindeki oksijenli suda yayın hareketi artar."
+    },
+    {
+      "id": "kozan_005",
+      "mera_adi": "Eskikabasakal Göleti",
+      "konum": { "ilce": "Kozan", "mahalle": "Eskikabasakal", "koordinat": "37.480 N 35.800 E", "tip": "İç Su Göleti" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Göletin durgun köşelerinde sazan için mısır kullanın."
+    },
+    {
+      "id": "kozan_006",
+      "mera_adi": "Gedikli Akıntı Kırımı",
+      "konum": { "ilce": "Kozan", "mahalle": "Gedikli", "koordinat": "37.510 N 35.830 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 9, "max": 21 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar alabalık için beslenme alanıdır."
+    },
+    {
+      "id": "kozan_007",
+      "mera_adi": "Işıkkaya Mevkii",
+      "konum": { "ilce": "Kozan", "mahalle": "Işıkkaya", "koordinat": "37.530 N 35.850 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Sudak", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sudak için saz araları ve gece avı etkilidir."
+    },
+    {
+      "id": "kozan_008",
+      "mera_adi": "Akarca Dere Yatağı",
+      "konum": { "ilce": "Kozan", "mahalle": "Akarca", "koordinat": "37.470 N 35.790 E", "tip": "Küçük Dere" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sığ sularda sessiz olun ve hafif takım kullanın."
+    },
+    {
+      "id": "kozan_009",
+      "mera_adi": "Çandık Sulama Hattı",
+      "konum": { "ilce": "Kozan", "mahalle": "Çandık", "koordinat": "37.505 N 35.825 E", "tip": "Sulama Kanalı" },
+      "analiz": { "yaygin_turler": ["Sazan"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sulama durduğunda durgun kesimleri hedefleyin."
+    },
+    {
+      "id": "kozan_010",
+      "mera_adi": "Kalkumaç Dereleri",
+      "konum": { "ilce": "Kozan", "mahalle": "Kalkumaç", "koordinat": "37.550 N 35.870 E", "tip": "Dağlık Bölge" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 4, "max": 15 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Hafif ekipmanla sessizce yaklaşın, dağ alabalığı çok ürkektir."
+    },
+    {
+      "id": "kozan_011",
+      "mera_adi": "Hamam Mevkii",
+      "konum": { "ilce": "Kozan", "mahalle": "Hamam", "koordinat": "37.495 N 35.815 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Yayın için gece dip oltası ve canlı yem kullanın."
+    },
+    {
+      "id": "kozan_012",
+      "mera_adi": "Faydalı Göze Hattı",
+      "konum": { "ilce": "Kozan", "mahalle": "Faydalı", "koordinat": "37.560 N 35.880 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 11, "max": 23 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Berrak kaynak suyunda ince misina ve küçük kanca kullanın."
+    }
+  ],
+  "pozanti": [
+    {
+      "id": "pozanti_001",
+      "mera_adi": "Şekerpınarı Mevkii",
+      "konum": { "ilce": "Pozantı", "mahalle": "Şekerpınarı", "koordinat": "37.420 N 34.870 E", "tip": "Akarsu" },
+      "analiz": { "yaygin_turler": ["Kırmızı Benekli Alabalık"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Kırmızı benekli alabalık için sinek takımı ve doğal yem kullanın."
+    },
+    {
+      "id": "pozanti_002",
+      "mera_adi": "Kamışlı Çayı",
+      "konum": { "ilce": "Pozantı", "mahalle": "Kamışlı", "koordinat": "37.440 N 34.890 E", "tip": "Akarsu Yatağı" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı", "Kefal"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 7, "max": 18 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Serin sularda alabalık için kaşık yem tercih edin."
+    },
+    {
+      "id": "pozanti_003",
+      "mera_adi": "Hamidiye Dereleri",
+      "konum": { "ilce": "Pozantı", "mahalle": "Hamidiye", "koordinat": "37.460 N 34.910 E", "tip": "Yüksek Rakım Deresi" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 4, "max": 15 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Hafif ekipmanla sessizce yaklaşın, alabalık ürkektir."
+    },
+    {
+      "id": "pozanti_004",
+      "mera_adi": "Bürümcek Akıntı Kırımı",
+      "konum": { "ilce": "Pozantı", "mahalle": "Bürümcek", "koordinat": "37.400 N 34.850 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 11, "max": 23 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar kefal için beslenme alanıdır."
+    },
+    {
+      "id": "pozanti_005",
+      "mera_adi": "Belemedik Vadisi",
+      "konum": { "ilce": "Pozantı", "mahalle": "Belemedik", "koordinat": "37.430 N 34.880 E", "tip": "Akarsu Hattı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1012, "max": 1024 }, "ideal_sicaklik_c": { "min": 6, "max": 17 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Vadi içindeki durgun sularda alabalık avlayın."
+    },
+    {
+      "id": "pozanti_006",
+      "mera_adi": "Aşçıbekirli Göze Hattı",
+      "konum": { "ilce": "Pozantı", "mahalle": "Aşçıbekirli", "koordinat": "37.480 N 34.930 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Berrak kaynak suyunda doğal yem ile alabalık avlayın."
+    },
+    {
+      "id": "pozanti_007",
+      "mera_adi": "Fındıklı Yayla Deresi",
+      "konum": { "ilce": "Pozantı", "mahalle": "Fındıklı", "koordinat": "37.500 N 34.950 E", "tip": "Yüksek Rakım Bölgesi" },
+      "analiz": { "yaygin_turler": ["Küçük Alabalık"], "ideal_basinc_hpa": { "min": 1015, "max": 1027 }, "ideal_sicaklik_c": { "min": 3, "max": 14 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Küçük kanca ve hafif takım ile alabalık hedefleyin."
+    },
+    {
+      "id": "pozanti_008",
+      "mera_adi": "Yazıcak Mevkii",
+      "konum": { "ilce": "Pozantı", "mahalle": "Yazıcak", "koordinat": "37.410 N 34.860 E", "tip": "Akarsu Yatağı" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kefal için ekmek hamuru veya mısır kullanın."
+    },
+    {
+      "id": "pozanti_009",
+      "mera_adi": "Karakışlakçı Dereleri",
+      "konum": { "ilce": "Pozantı", "mahalle": "Karakışlakçı", "koordinat": "37.470 N 34.920 E", "tip": "Dağlık Bölge" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 4, "max": 15 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Sessiz olun ve doğal yem ile avlanın."
+    },
+    {
+      "id": "pozanti_010",
+      "mera_adi": "Dağdibi Kıyı Bandı",
+      "konum": { "ilce": "Pozantı", "mahalle": "Dağdibi", "koordinat": "37.445 N 34.900 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 8, "max": 19 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Serin sularda alabalık, ılık sularda kefal aktiftir."
+    },
+    {
+      "id": "pozanti_011",
+      "mera_adi": "Yağlıtaş Mevkii",
+      "konum": { "ilce": "Pozantı", "mahalle": "Yağlıtaş", "koordinat": "37.490 N 34.940 E", "tip": "Yüksek Rakım Bölgesi" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 3, "max": 14 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Çok soğuk sularda alabalık için doğal yem kullanın."
+    },
+    {
+      "id": "pozanti_012",
+      "mera_adi": "Pozantı Merkez Hattı",
+      "konum": { "ilce": "Pozantı", "mahalle": "Merkez", "koordinat": "37.425 N 34.875 E", "tip": "Akarsu Geçişi" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Şehir içi akarsuda sabah erken saatlerde avlanın."
+    }
+  ],
+  "saimbeyli": [
+    {
+      "id": "saimbeyli_001",
+      "mera_adi": "Obruk Şelalesi Civarı",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Obruk", "koordinat": "37.980 N 36.090 E", "tip": "Şelale" },
+      "analiz": { "yaygin_turler": ["Kırmızı Benekli Alabalık"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Şelale dökülen havuzlarda kırmızı benekli alabalık için sinek takımı kullanın."
+    },
+    {
+      "id": "saimbeyli_002",
+      "mera_adi": "Kızılağaç Dereleri",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Kızılağaç", "koordinat": "37.960 N 36.070 E", "tip": "Yüksek Rakım Deresi" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 4, "max": 15 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Hafif ekipmanla sessizce yaklaşın, dağ alabalığı çok ürkektir."
+    },
+    {
+      "id": "saimbeyli_003",
+      "mera_adi": "Gürleşen Akıntı Hattı",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Gürleşen", "koordinat": "37.990 N 36.100 E", "tip": "Akarsu Yatağı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 8, "max": 19 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Akıntının hızlandığı bölgeler alabalık için idealdir."
+    },
+    {
+      "id": "saimbeyli_004",
+      "mera_adi": "Çeralan Mevkii",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Çeralan", "koordinat": "37.940 N 36.050 E", "tip": "Dağ Deresi" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 6, "max": 17 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Doğal yem ile yerli alabalık avı başarılıdır."
+    },
+    {
+      "id": "saimbeyli_005",
+      "mera_adi": "Karakuyu Göze Hattı",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Karakuyu", "koordinat": "38.000 N 36.110 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Berrak kaynak suyunda ince misina ve küçük kanca kullanın."
+    },
+    {
+      "id": "saimbeyli_006",
+      "mera_adi": "Himmetli Akış Yolu",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Himmetli", "koordinat": "37.970 N 36.080 E", "tip": "Akarsu Hattı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 10, "max": 22 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Farklı türler için karma yem kullanın."
+    },
+    {
+      "id": "saimbeyli_007",
+      "mera_adi": "Yardibi Kıyı Bandı",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Yardibi", "koordinat": "37.930 N 36.040 E", "tip": "Dere Kenarı" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kefal için ekmek hamuru veya mısır kullanın."
+    },
+    {
+      "id": "saimbeyli_008",
+      "mera_adi": "Ayvacık Mevkii",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Ayvacık", "koordinat": "38.010 N 36.120 E", "tip": "Yüksek Rakım Bölgesi" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1015, "max": 1027 }, "ideal_sicaklik_c": { "min": 3, "max": 14 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Çok soğuk sularda alabalık için kaşık yem tercih edin."
+    },
+    {
+      "id": "saimbeyli_009",
+      "mera_adi": "Cumhurlu Dereleri",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Cumhurlu", "koordinat": "37.950 N 36.060 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Kırmızı Benekli Alabalık"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Kırmızı benekli alabalık için sinek takımı idealdir."
+    },
+    {
+      "id": "saimbeyli_010",
+      "mera_adi": "Aksaağaç Göze Hattı",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Aksaağaç", "koordinat": "38.020 N 36.130 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 6, "max": 17 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Berrak kaynak suyunda doğal yem ile avlanın."
+    },
+    {
+      "id": "saimbeyli_011",
+      "mera_adi": "Kandilli Akıntı Kırımı",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Kandilli", "koordinat": "37.920 N 36.030 E", "tip": "Küçük Dere" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar kefal için beslenme alanıdır."
+    },
+    {
+      "id": "saimbeyli_012",
+      "mera_adi": "Saimbeyli Merkez Hattı",
+      "konum": { "ilce": "Saimbeyli", "mahalle": "Merkez", "koordinat": "37.985 N 36.095 E", "tip": "Akarsu Geçişi" },
+      "analiz": { "yaygin_turler": ["Kefal", "Alabalık"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 10, "max": 22 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Serin sularda alabalık, ılık sularda kefal aktiftir."
+    }
+  ],
+  "saricam": [
+    {
+      "id": "saricam_001",
+      "mera_adi": "Dörtler Koyu",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Dörtler", "koordinat": "37.020 N 35.350 E", "tip": "Baraj Koyu" },
+      "analiz": { "yaygin_turler": ["Sazan", "Aynalı Sazan"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Durgun koylarda aynalı sazan için mısır ve ekmek hamuru kullanın."
+    },
+    {
+      "id": "saricam_002",
+      "mera_adi": "Çatalan Köprü Girişi / Civarı",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Çatalan", "koordinat": "37.040 N 35.370 E", "tip": "Baraj Girişi" },
+      "analiz": { "yaygin_turler": ["Sudak", "Sazan", "Yayın"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Köprü ayakları ve baraj girişi sudak için idealdir."
+    },
+    {
+      "id": "saricam_003",
+      "mera_adi": "Bayramlı Kıyı Bandı",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Bayramlı", "koordinat": "37.010 N 35.340 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sazlık alanlar sazan için doğal saklanma yeridir."
+    },
+    {
+      "id": "saricam_004",
+      "mera_adi": "Hakkıbeyli Göleti",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Hakkıbeyli", "koordinat": "36.990 N 35.320 E", "tip": "İç Su Göleti" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Göletin durgun köşelerinde yemleme yaparak sazan avlayın."
+    },
+    {
+      "id": "saricam_005",
+      "mera_adi": "Kılıçlı Mevkii",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Kılıçlı", "koordinat": "37.050 N 35.380 E", "tip": "Baraj Koyu" },
+      "analiz": { "yaygin_turler": ["Sudak", "Sazan"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sudak için saz araları ve gece avı etkilidir."
+    },
+    {
+      "id": "saricam_006",
+      "mera_adi": "Cihadiye Akış Yatağı",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Cihadiye", "koordinat": "37.030 N 35.360 E", "tip": "Dere Hattı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dip oltası ile yayın ve sazan hedeflenmeli."
+    },
+    {
+      "id": "saricam_007",
+      "mera_adi": "Kaşobası Kıyıları",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Kaşobası", "koordinat": "36.980 N 35.310 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sakin kıyılarda sazan için yemleme yapın."
+    },
+    {
+      "id": "saricam_008",
+      "mera_adi": "Yürekli Dere Ağzı",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Yürekli", "koordinat": "37.000 N 35.330 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali", "Yayın"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 13, "max": 25 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dere ağzında oksijen seviyesi yüksektir, balık aktiftir."
+    },
+    {
+      "id": "saricam_009",
+      "mera_adi": "Kızılkaş Mevkii",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Kızılkaş", "koordinat": "37.060 N 35.390 E", "tip": "Baraj Sığlığı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Sudak"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sığ sularda sudak için sabah erken saatleri tercih edin."
+    },
+    {
+      "id": "saricam_010",
+      "mera_adi": "Gökbuket Kıyı Hattı",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Gökbuket", "koordinat": "37.045 N 35.375 E", "tip": "Baraj Kıyısı" },
+      "analiz": { "yaygin_turler": ["Sudak", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sudak için canlı yem ve gece avı yapın."
+    },
+    {
+      "id": "saricam_011",
+      "mera_adi": "Karayusuflu Mevkii",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Karayusuflu", "koordinat": "36.970 N 35.300 E", "tip": "Su Birikintisi" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Durgun sularda sazan için mısır kullanın."
+    },
+    {
+      "id": "saricam_012",
+      "mera_adi": "Mustafalar Göze Hattı",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Mustafalar", "koordinat": "37.025 N 35.355 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 11, "max": 23 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Berrak kaynak suyunda ince misina ve küçük kanca kullanın."
+    },
+    {
+      "id": "saricam_013",
+      "mera_adi": "Buruk Sulama Kanalları",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Buruk", "koordinat": "37.035 N 35.365 E", "tip": "Sulama Kanalı" },
+      "analiz": { "yaygin_turler": ["Sazan"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 30 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sulama durduğunda durgun kesimleri hedefleyin."
+    },
+    {
+      "id": "saricam_014",
+      "mera_adi": "Yağızlar Göleti",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Yağızlar", "koordinat": "37.015 N 35.325 E", "tip": "İç Su Göleti" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Yağızlar Göleti'nin durgun sularında sazan için mısır kullanın."
+    },
+    {
+      "id": "saricam_015",
+      "mera_adi": "Çamlıca Göleti",
+      "konum": { "ilce": "Sarıçam", "mahalle": "Çamlıca", "koordinat": "37.005 N 35.315 E", "tip": "İç Su Göleti" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Çamlıca Göleti'nde sabah erken saatlerde yemleme yaparak sazan avlayın."
+    }
+  ],
+  "seyhan": [
+    {
+      "id": "seyhan_001",
+      "mera_adi": "Baraj Güney Kapakları",
+      "konum": { "ilce": "Seyhan", "mahalle": "Baraj", "koordinat": "36.985 N 35.280 E", "tip": "Baraj Kapakları" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal", "Levrek"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kapak açılışlarında balık hareketi artar, levrek için sahte yem kullanın."
+    },
+    {
+      "id": "seyhan_002",
+      "mera_adi": "Eski Baraj Kapak Altı",
+      "konum": { "ilce": "Seyhan", "mahalle": "Eski Baraj", "koordinat": "36.975 N 35.270 E", "tip": "Nehir Bölgesi" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Eski kapak altındaki derin çukurlar yayın için idealdir."
+    },
+    {
+      "id": "seyhan_003",
+      "mera_adi": "Yalmanlı Akış Hattı",
+      "konum": { "ilce": "Seyhan", "mahalle": "Yalmanlı", "koordinat": "36.995 N 35.290 E", "tip": "Nehir Hattı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntının yavaşladığı noktalarda yayın ve sazan avlayın."
+    },
+    {
+      "id": "seyhan_004",
+      "mera_adi": "Zeytinli Kıyı Şeridi",
+      "konum": { "ilce": "Seyhan", "mahalle": "Zeytinli", "koordinat": "36.965 N 35.260 E", "tip": "Nehir Boyu" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kıyıya yakın sazlık alanlar sazan için saklanma noktasıdır."
+    },
+    {
+      "id": "seyhan_005",
+      "mera_adi": "Karakuyu Akıntı Kırımı",
+      "konum": { "ilce": "Seyhan", "mahalle": "Karakuyu", "koordinat": "37.005 N 35.300 E", "tip": "Nehir Hattı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar yayın için beslenme alanıdır."
+    },
+    {
+      "id": "seyhan_006",
+      "mera_adi": "Mürseloğlu Mevkii",
+      "konum": { "ilce": "Seyhan", "mahalle": "Mürseloğlu", "koordinat": "36.955 N 35.250 E", "tip": "Nehir/Kanal" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kanal birleşim noktalarında sazan yoğunluğu artar."
+    },
+    {
+      "id": "seyhan_007",
+      "mera_adi": "Küçükçıldırım Hattı",
+      "konum": { "ilce": "Seyhan", "mahalle": "Küçükçıldırım", "koordinat": "36.990 N 35.285 E", "tip": "Sulama Kanalı" },
+      "analiz": { "yaygin_turler": ["Sazan"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 30 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sulama kanallarında sabah erken saatlerde avlanın."
+    },
+    {
+      "id": "seyhan_008",
+      "mera_adi": "Hadırlı Nehir Kıyısı",
+      "konum": { "ilce": "Seyhan", "mahalle": "Hadırlı", "koordinat": "36.960 N 35.255 E", "tip": "Nehir Kıyısı" },
+      "analiz": { "yaygin_turler": ["Kefal", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akşam saatlerinde kefal yüzeye çıkar, yayın için dip oltası kurun."
+    },
+    {
+      "id": "seyhan_009",
+      "mera_adi": "Koyuncu Mevkii",
+      "konum": { "ilce": "Seyhan", "mahalle": "Koyuncu", "koordinat": "37.015 N 35.310 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Yayın için gece avı ve canlı yem tercih edin."
+    },
+    {
+      "id": "seyhan_010",
+      "mera_adi": "Kayışlı Kıyı Bandı",
+      "konum": { "ilce": "Seyhan", "mahalle": "Kayışlı", "koordinat": "36.945 N 35.240 E", "tip": "Nehir Hattı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kefal için ekmek hamuru veya mısır kullanın."
+    },
+    {
+      "id": "seyhan_011",
+      "mera_adi": "Sarıhuğlar Mevkii",
+      "konum": { "ilce": "Seyhan", "mahalle": "Sarıhuğlar", "koordinat": "36.980 N 35.275 E", "tip": "Su Birikintisi" },
+      "analiz": { "yaygin_turler": ["Sazan"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Durgun sularda sazan için mısır kullanın."
+    },
+    {
+      "id": "seyhan_012",
+      "mera_adi": "Salmanbeyli Hattı",
+      "konum": { "ilce": "Seyhan", "mahalle": "Salmanbeyli", "koordinat": "36.970 N 35.265 E", "tip": "Nehir Yatağı" },
+      "analiz": { "yaygin_turler": ["Kefal", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dip oltası ile yayın, yüzeyde kefal hedefleyin."
+    }
+  ],
+  "tufanbeyli": [
+    {
+      "id": "tufanbeyli_001",
+      "mera_adi": "Sarız Çayı Hattı",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Sarız", "koordinat": "38.260 N 36.220 E", "tip": "Akarsu Yatağı" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı", "Kefal"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 7, "max": 18 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Serin sularda alabalık için kaşık yem tercih edin."
+    },
+    {
+      "id": "tufanbeyli_002",
+      "mera_adi": "Kürebeli Yaylası Gözesi",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Kürebeli", "koordinat": "38.280 N 36.240 E", "tip": "Yüksek Rakım Bölgesi" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 4, "max": 15 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Hafif ekipmanla sessizce yaklaşın, alabalık ürkektir."
+    },
+    {
+      "id": "tufanbeyli_003",
+      "mera_adi": "Bozgüney Akış Yolu",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Bozgüney", "koordinat": "38.240 N 36.200 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1012, "max": 1024 }, "ideal_sicaklik_c": { "min": 6, "max": 17 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Akıntının hızlandığı bölgeler alabalık için idealdir."
+    },
+    {
+      "id": "tufanbeyli_004",
+      "mera_adi": "Pekmezli Dereleri",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Pekmezli", "koordinat": "38.300 N 36.260 E", "tip": "Dağ Deresi" },
+      "analiz": { "yaygin_turler": ["Kırmızı Benekli Alabalık"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Kırmızı benekli alabalık için sinek takımı idealdir."
+    },
+    {
+      "id": "tufanbeyli_005",
+      "mera_adi": "Şar Mevkii Akıntı Kırımı",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Şar", "koordinat": "38.250 N 36.210 E", "tip": "Akarsu Hattı" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1013, "max": 1025 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar alabalık için beslenme alanıdır."
+    },
+    {
+      "id": "tufanbeyli_006",
+      "mera_adi": "Yamanlı Göze Hattı",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Yamanlı", "koordinat": "38.270 N 36.230 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 5, "max": 16 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Berrak kaynak suyunda ince misina ve küçük kanca kullanın."
+    },
+    {
+      "id": "tufanbeyli_007",
+      "mera_adi": "Ayvat Mevkii",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Ayvat", "koordinat": "38.230 N 36.190 E", "tip": "Akarsu Hattı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1011, "max": 1023 }, "ideal_sicaklik_c": { "min": 8, "max": 19 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Serin sularda alabalık, ılık sularda kefal aktiftir."
+    },
+    {
+      "id": "tufanbeyli_008",
+      "mera_adi": "Katal Mevkii",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Katal", "koordinat": "38.310 N 36.270 E", "tip": "Yüksek Rakım Bölgesi" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1015, "max": 1027 }, "ideal_sicaklik_c": { "min": 3, "max": 14 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Çok soğuk sularda alabalık için doğal yem kullanın."
+    },
+    {
+      "id": "tufanbeyli_009",
+      "mera_adi": "Tozlu Dereleri",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Tozlu", "koordinat": "38.290 N 36.250 E", "tip": "Küçük Dere" },
+      "analiz": { "yaygin_turler": ["Yerli Alabalık"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 4, "max": 15 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Küçük derelerde sessiz olun ve hafif takım kullanın."
+    },
+    {
+      "id": "tufanbeyli_010",
+      "mera_adi": "Doğanlı Göze Hattı",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Doğanlı", "koordinat": "38.320 N 36.280 E", "tip": "Kaynak Suyu" },
+      "analiz": { "yaygin_turler": ["Dağ Alabalığı"], "ideal_basinc_hpa": { "min": 1014, "max": 1026 }, "ideal_sicaklik_c": { "min": 4, "max": 15 } },
+      "ekstra": { "su_tipi": "kaynak", "tuzluluk": "tatli", "rakim": "cok_yuksek" },
+      "ai_tavsiye_motoru": "Berrak kaynak suyunda doğal yem ile avlanın."
+    },
+    {
+      "id": "tufanbeyli_011",
+      "mera_adi": "Evci Akıntı Kırımı",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Evci", "koordinat": "38.220 N 36.180 E", "tip": "Akarsu Kolu" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 11, "max": 23 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntı kırımındaki girdaplar kefal için beslenme alanıdır."
+    },
+    {
+      "id": "tufanbeyli_012",
+      "mera_adi": "Damlakuyu Mevkii",
+      "konum": { "ilce": "Tufanbeyli", "mahalle": "Damlakuyu", "koordinat": "38.245 N 36.205 E", "tip": "Dere Yatağı" },
+      "analiz": { "yaygin_turler": ["Alabalık", "Kefal"], "ideal_basinc_hpa": { "min": 1012, "max": 1024 }, "ideal_sicaklik_c": { "min": 7, "max": 18 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli", "rakim": "yuksek" },
+      "ai_tavsiye_motoru": "Dere yatağındaki döküntü alanları balık için saklanma noktasıdır."
+    }
+  ],
+  "yumurtalik": [
+    {
+      "id": "yumurtalik_001",
+      "mera_adi": "Yumurtalık Liman Arkası",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Liman", "koordinat": "36.770 N 35.780 E", "tip": "Liman Bölgesi" },
+      "analiz": { "yaygin_turler": ["Levrek", "Karakulak", "Sargoz"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Liman içindeki yapılar levrek için doğal saklanma noktasıdır."
+    },
+    {
+      "id": "yumurtalik_002",
+      "mera_adi": "Kız Kalesi Açıkları",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Kız Kalesi", "koordinat": "36.740 N 35.820 E", "tip": "Taşlık Bölge" },
+      "analiz": { "yaygin_turler": ["Çupra", "Sargoz", "Trança"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Kale çevresindeki taşlık dipler çupra ve sargoz için idealdir."
+    },
+    {
+      "id": "yumurtalik_003",
+      "mera_adi": "Botaş İskelesi Yanı",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Botaş", "koordinat": "36.780 N 35.770 E", "tip": "Sahil Hattı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Çupra", "Mırmır"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "İskele ayakları levrek için av noktasıdır."
+    },
+    {
+      "id": "yumurtalik_004",
+      "mera_adi": "Zeytinbeli Sahili",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Zeytinbeli", "koordinat": "36.760 N 35.790 E", "tip": "Kumluk Mera" },
+      "analiz": { "yaygin_turler": ["Mırmır", "Çupra", "Levrek"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Kumluk diplerde mırmır ve çupra için dip oltası kullanın."
+    },
+    {
+      "id": "yumurtalik_005",
+      "mera_adi": "Narlıören Burnu",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Narlıören", "koordinat": "36.750 N 35.810 E", "tip": "Kayalık Bölge" },
+      "analiz": { "yaygin_turler": ["Sargoz", "Karakulak"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Burun rüzgar kıranında sargoz yoğunluğu artar."
+    },
+    {
+      "id": "yumurtalik_006",
+      "mera_adi": "Süleyman Kulesi Mevkii",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Süleyman Kulesi", "koordinat": "36.730 N 35.830 E", "tip": "Tarihi Kıyı Bölgesi" },
+      "analiz": { "yaygin_turler": ["Levrek", "Sargoz", "Kefal"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Tarihi yapı çevresindeki taşlık alanlar levrek için idealdir."
+    },
+    {
+      "id": "yumurtalik_007",
+      "mera_adi": "Yelkoma Lagün Ağzı",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Yelkoma", "koordinat": "36.720 N 35.840 E", "tip": "Lagün Ağzı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal", "Mırmır"], "ideal_basinc_hpa": { "min": 1004, "max": 1019 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Lagün ağzında akıntının hızlandığı noktaları hedefleyin."
+    },
+    {
+      "id": "yumurtalik_008",
+      "mera_adi": "Haylazlı Sahil Bandı",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Haylazlı", "koordinat": "36.790 N 35.760 E", "tip": "Kumluk Bölge" },
+      "analiz": { "yaygin_turler": ["Mırmır", "Çupra"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Kumluk sahillerde mırmır için ince takım kullanın."
+    },
+    {
+      "id": "yumurtalik_009",
+      "mera_adi": "Deveciuşağı Kıyıları",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Deveciuşağı", "koordinat": "36.755 N 35.800 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Çupra"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Kayalık kıyılarda levrek için sahte yem kullanın."
+    },
+    {
+      "id": "yumurtalik_010",
+      "mera_adi": "Kaldırım Azmağı Çıkışı",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Kaldırım", "koordinat": "36.710 N 35.850 E", "tip": "Akarsu-Deniz Birleşimi" },
+      "analiz": { "yaygin_turler": ["Kefal", "Levrek", "Yayın"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "lagün", "tuzluluk": "brakish" },
+      "ai_tavsiye_motoru": "Tatlı su-tuzlu su birleşiminde levrek ve kefal aktiftir."
+    },
+    {
+      "id": "yumurtalik_011",
+      "mera_adi": "Sugözü Termik Yanı",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Sugözü", "koordinat": "36.800 N 35.750 E", "tip": "Derin Su Bölgesi" },
+      "analiz": { "yaygin_turler": ["Çupra", "Levrek"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Derin sularda çupra için dip oltası kullanın."
+    },
+    {
+      "id": "yumurtalik_012",
+      "mera_adi": "Kuzupınarı Mevkii",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Kuzupınarı", "koordinat": "36.745 N 35.815 E", "tip": "Deniz Kıyısı" },
+      "analiz": { "yaygin_turler": ["Levrek", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1021 }, "ideal_sicaklik_c": { "min": 17, "max": 30 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Gün batımı levrek için en verimli zamandır."
+    },
+    {
+      "id": "yumurtalik_013",
+      "mera_adi": "Ayas Antik Liman İçi",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Ayas", "koordinat": "36.735 N 35.825 E", "tip": "Sığ Mera" },
+      "analiz": { "yaygin_turler": ["Mırmır", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1022 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Sığ sularda mırmır için ekmek hamuru kullanın."
+    },
+    {
+      "id": "yumurtalik_014",
+      "mera_adi": "Demirtaş Taşlıkları",
+      "konum": { "ilce": "Yumurtalık", "mahalle": "Demirtaş", "koordinat": "36.765 N 35.785 E", "tip": "Taşlık Deniz Alanı" },
+      "analiz": { "yaygin_turler": ["Karakulak", "Sargoz"], "ideal_basinc_hpa": { "min": 1005, "max": 1020 }, "ideal_sicaklik_c": { "min": 18, "max": 31 } },
+      "ekstra": { "su_tipi": "deniz", "tuzluluk": "tuzlu" },
+      "ai_tavsiye_motoru": "Taşlık dipler karakulak ve sargoz için doğal yaşam alanıdır."
+    }
+  ],
+  "yuregir": [
+    {
+      "id": "yuregir_001",
+      "mera_adi": "Adana 2. Köprü Altı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Merkez", "koordinat": "36.985 N 35.300 E", "tip": "Nehir Bölgesi" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Adana 2. Köprü ayakları yayın ve sazan için ideal saklanma noktasıdır."
+    },
+    {
+      "id": "yuregir_002",
+      "mera_adi": "Çatalan Köprüsü Altı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Çatalan", "koordinat": "37.040 N 35.370 E", "tip": "Nehir Bölgesi" },
+      "analiz": { "yaygin_turler": ["Sudak", "Sazan", "Yayın"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "baraj", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Çatalan Köprüsü altındaki derin çukurlar sudak ve yayın için idealdir."
+    },
+    {
+      "id": "yuregir_003",
+      "mera_adi": "Solaklı Kanal Boyu",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Solaklı", "koordinat": "36.965 N 35.640 E", "tip": "Sulama Hattı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Kanalın durgun kesimlerinde sazan için yemleme yapın."
+    },
+    {
+      "id": "yuregir_004",
+      "mera_adi": "Doğankent Akış Hattı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Doğankent", "koordinat": "36.980 N 35.660 E", "tip": "Nehir/Kanal" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akıntının yavaşladığı noktalarda yayın avlayın."
+    },
+    {
+      "id": "yuregir_005",
+      "mera_adi": "Abdioğlu Kıyıları",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Abdioğlu", "koordinat": "36.940 N 35.610 E", "tip": "Nehir Kıyısı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dip oltası ile yayın ve sazan hedeflenmeli."
+    },
+    {
+      "id": "yuregir_006",
+      "mera_adi": "Geçitli Mevkii",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Geçitli", "koordinat": "36.970 N 35.650 E", "tip": "Nehir Yatağı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Nehir yatağındaki derin çukurlar yayın için idealdir."
+    },
+    {
+      "id": "yuregir_007",
+      "mera_adi": "Havutlu Nehir Kenarı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Havutlu", "koordinat": "36.930 N 35.600 E", "tip": "Nehir Kıyısı" },
+      "analiz": { "yaygin_turler": ["Kefal", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Akşam saatlerinde kefal yüzeye çıkar."
+    },
+    {
+      "id": "yuregir_008",
+      "mera_adi": "Sarıçam Deresi Ağzı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Sarıçam Deresi", "koordinat": "36.960 N 35.630 E", "tip": "Akarsu Kavşağı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Dere ağzında oksijen seviyesi yüksektir, balık aktiftir."
+    },
+    {
+      "id": "yuregir_009",
+      "mera_adi": "Kaşlıca Mevkii",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Kaşlıca", "koordinat": "36.990 N 35.670 E", "tip": "Sulama Hattı" },
+      "analiz": { "yaygin_turler": ["Sazan"], "ideal_basinc_hpa": { "min": 1009, "max": 1021 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Sulama kanallarında sabah erken saatlerde avlanın."
+    },
+    {
+      "id": "yuregir_010",
+      "mera_adi": "Yunusoğlu Hattı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Yunusoğlu", "koordinat": "36.955 N 35.625 E", "tip": "Nehir/Kanal" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Yayın için gece avı ve canlı yem tercih edin."
+    },
+    {
+      "id": "yuregir_011",
+      "mera_adi": "Çelemli Gölet Civarı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Çelemli", "koordinat": "36.920 N 35.590 E", "tip": "İç Su Göleti" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "gölet", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Göletin durgun köşelerinde sazan için yemleme yapın."
+    },
+    {
+      "id": "yuregir_012",
+      "mera_adi": "Esenler Akış Yatağı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Esenler", "koordinat": "36.975 N 35.655 E", "tip": "Küçük Dere" },
+      "analiz": { "yaygin_turler": ["Tatlı Su Kefali"], "ideal_basinc_hpa": { "min": 1010, "max": 1022 }, "ideal_sicaklik_c": { "min": 12, "max": 24 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Küçük derede sessiz olun ve hafif takım kullanın."
+    },
+    {
+      "id": "yuregir_013",
+      "mera_adi": "Denizkuyusu Mevkii",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Denizkuyusu", "koordinat": "36.945 N 35.615 E", "tip": "Nehir Hattı" },
+      "analiz": { "yaygin_turler": ["Yayın", "Sazan"], "ideal_basinc_hpa": { "min": 1006, "max": 1018 }, "ideal_sicaklik_c": { "min": 14, "max": 26 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Nehir hattındaki kıvrımlarda yayın yoğunluğu artar."
+    },
+    {
+      "id": "yuregir_014",
+      "mera_adi": "Karayusuflu Mevkii",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Karayusuflu", "koordinat": "36.900 N 35.580 E", "tip": "Nehir Bölgesi" },
+      "analiz": { "yaygin_turler": ["Sazan", "Yayın", "Kefal"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 15, "max": 27 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Karayusuflu, Seyhan Nehri'nin denize yakın bölgesinde yayın ve sazan avlayın."
+    },
+    {
+      "id": "yuregir_015",
+      "mera_adi": "Karayusuflu Ağzı",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Karayusuflu", "koordinat": "36.890 N 35.570 E", "tip": "Nehir Ağzı" },
+      "analiz": { "yaygin_turler": ["Kefal", "Levrek", "Yayın"], "ideal_basinc_hpa": { "min": 1005, "max": 1018 }, "ideal_sicaklik_c": { "min": 16, "max": 28 } },
+      "ekstra": { "su_tipi": "akarsu", "tuzluluk": "brakish", "ozellik": "denize_dokulme" },
+      "ai_tavsiye_motoru": "Seyhan Nehri'nin denize döküldüğü bölge, büyük levrek ve kefal için idealdir."
+    },
+    {
+      "id": "yuregir_016",
+      "mera_adi": "İsahacılı Yol Üzeri",
+      "konum": { "ilce": "Yüreğir", "mahalle": "İsahacılı", "koordinat": "36.935 N 35.605 E", "tip": "Sulama Kanalı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Kefal"], "ideal_basinc_hpa": { "min": 1008, "max": 1020 }, "ideal_sicaklik_c": { "min": 16, "max": 29 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "İsahacılı yol üzerindeki sulama kanallarında sazan için mısır kullanın."
+    },
+    {
+      "id": "yuregir_017",
+      "mera_adi": "Toprak Kanal",
+      "konum": { "ilce": "Yüreğir", "mahalle": "Köprüyolu", "koordinat": "36.950 N 35.620 E", "tip": "Sulama Kanalı" },
+      "analiz": { "yaygin_turler": ["Sazan", "Yayın"], "ideal_basinc_hpa": { "min": 1007, "max": 1019 }, "ideal_sicaklik_c": { "min": 15, "max": 28 } },
+      "ekstra": { "su_tipi": "kanal", "tuzluluk": "tatli" },
+      "ai_tavsiye_motoru": "Toprak Kanal'daki durgun sularda gece yayın avı yapın."
+    }
+  ]
+}
