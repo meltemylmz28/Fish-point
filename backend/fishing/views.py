@@ -29,6 +29,40 @@ from django.shortcuts import get_object_or_404
 from .models import FishingSpot, SpotFishRelation
 from .services.weather_service import get_weather
 
+
+@api_view(['GET'])
+def get_weather_for_coords(request):
+    """Return weather for arbitrary coordinates (query params: lat, lng)."""
+    lat = request.query_params.get('lat')
+    lng = request.query_params.get('lng')
+    if lat is None or lng is None:
+        return Response({'error': 'lat and lng query params required'}, status=400)
+    try:
+        lat = float(lat)
+        lng = float(lng)
+    except ValueError:
+        return Response({'error': 'invalid lat or lng'}, status=400)
+
+    weather = get_weather(lat, lng)
+    return Response(weather)
+
+
+@api_view(['GET'])
+def spots_by_fish(request):
+    """Return fishing spots that have a given fish species name (query param: fish).
+    If no fish provided, returns all spots.
+    """
+    fish_name = request.query_params.get('fish')
+    if not fish_name:
+        spots = FishingSpot.objects.all()
+    else:
+        relations = SpotFishRelation.objects.filter(fish__name__icontains=fish_name).select_related('spot')
+        spot_ids = [rel.spot.id for rel in relations]
+        spots = FishingSpot.objects.filter(id__in=spot_ids)
+
+    serializer = FishingSpotSerializer(spots, many=True)
+    return Response(serializer.data)
+
 @api_view(['GET'])
 def get_fishing_advice(request, spot_id):
     spot = get_object_or_404(FishingSpot, id=spot_id)
