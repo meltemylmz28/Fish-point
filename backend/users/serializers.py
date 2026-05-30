@@ -1,3 +1,5 @@
+import re
+
 from django.conf import settings
 from django.contrib.auth import authenticate, get_user_model
 from rest_framework import serializers
@@ -21,6 +23,41 @@ class RegisterSerializer(serializers.ModelSerializer):
         model = User
         fields = ['username', 'email', 'password', 'password2']
 
+    def validate_username(self, value):
+        username = value.strip().lower()
+        username = username.replace('ı', '')
+        username = re.sub(r'[^a-z0-9._-]', '', username)
+
+        if not username:
+            raise serializers.ValidationError('Geçerli bir kullanıcı adı girin.')
+        if len(username) < 4:
+            raise serializers.ValidationError('Kullanıcı adı en az 4 karakter olmalı.')
+        if User.objects.filter(username__iexact=username).exists():
+            raise serializers.ValidationError('Bu kullanıcı adı zaten alınmış.')
+        return username
+
+    def validate_email(self, value):
+        email = value.strip().lower()
+        if User.objects.filter(email__iexact=email).exists():
+            raise serializers.ValidationError('Bu e-posta zaten kayıtlı.')
+        return email
+
+    def validate_password(self, value):
+        password = value.strip()
+        if len(password) < 8:
+            raise serializers.ValidationError('Şifre en az 8 karakter olmalı.')
+        if not re.search(r'[A-Z]', password):
+            raise serializers.ValidationError('Şifre en az bir büyük harf içermeli.')
+        if not re.search(r'[a-z]', password):
+            raise serializers.ValidationError('Şifre en az bir küçük harf içermeli.')
+        if not re.search(r'[0-9]', password):
+            raise serializers.ValidationError('Şifre en az bir rakam içermeli.')
+        if not re.search(r'[!@#\$%\^&\*()_+\-=\[\]{};:\'"\\|,.<>\/?`~]', password):
+            raise serializers.ValidationError('Şifre en az bir özel karakter içermeli.')
+        if ' ' in password:
+            raise serializers.ValidationError('Şifre boşluk içeremez.')
+        return password
+
     def validate(self, attrs):
         if attrs['password'] != attrs['password2']:
             raise serializers.ValidationError({"password": "Şifreler eşleşmiyor."})
@@ -29,6 +66,8 @@ class RegisterSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         validated_data.pop('password2')
         user = User.objects.create_user(**validated_data)
+        user.is_active = False
+        user.save(update_fields=['is_active'])
         return user
 
 

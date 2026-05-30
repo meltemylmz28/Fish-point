@@ -6,7 +6,10 @@ import 'package:frontend/providers/spot_provider.dart';
 import 'package:frontend/providers/cart_provider.dart';
 import 'package:frontend/providers/theme_provider.dart';
 import 'package:frontend/screens/advice_screen_fixed.dart';
+import 'package:frontend/screens/forgot_password_screen.dart';
 import 'package:frontend/screens/login_screen.dart';
+import 'package:frontend/screens/reset_password_screen.dart';
+import 'package:frontend/screens/verify_email_screen.dart';
 
 const Color powderPink = Color(0xFFFFD1DC);
 const Color navyBlue = Color(0xFF000080);
@@ -40,6 +43,34 @@ class FishPointApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const AuthWrapper(),
+      routes: {
+        '/login': (_) => const LoginScreen(),
+        '/forgot-password': (_) => const ForgotPasswordScreen(),
+        '/home': (_) => const AdviceScreen(),
+      },
+      onGenerateRoute: (settings) {
+        final uri = Uri.parse(settings.name ?? '');
+
+        if (uri.path == '/verify-email') {
+          return MaterialPageRoute(
+            builder: (_) => VerifyEmailScreen(
+              uid: uri.queryParameters['uid'],
+              token: uri.queryParameters['token'],
+            ),
+          );
+        }
+
+        if (uri.path == '/reset-password') {
+          return MaterialPageRoute(
+            builder: (_) => ResetPasswordScreen(
+              uid: uri.queryParameters['uid'],
+              token: uri.queryParameters['token'],
+            ),
+          );
+        }
+
+        return null;
+      },
     );
   }
 }

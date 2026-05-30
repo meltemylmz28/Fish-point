@@ -1,5 +1,14 @@
 import requests
 from django.conf import settings
+from urllib.parse import quote_plus
+
+def _wind_direction(deg):
+    if deg is None:
+        return "Bilinmiyor"
+    directions = ['K', 'KB', 'B', 'GB', 'G', 'GD', 'D', 'KD']
+    index = int(((deg + 22.5) % 360) / 45)
+    return directions[index]
+
 
 def get_weather(lat, lng):
     """
@@ -12,16 +21,26 @@ def get_weather(lat, lng):
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         data = response.json()
-        
+        wind = data.get("wind", {})
+        sys = data.get("sys", {})
+        city = data.get("name", "Bilinmiyor")
+        weather_url = f"https://openweathermap.org/city/{data.get('id')}" if data.get('id') else f"https://www.google.com/search?q={quote_plus(city + ' hava durumu')}"
+
         return {
             "success": True,
             "temp": data["main"]["temp"],
             "pressure": data["main"]["pressure"],
             "humidity": data["main"]["humidity"],
-            "wind_speed": data["wind"]["speed"],
-            "description": data["weather"][0]["description"],
+            "wind_speed": wind.get("speed", 0),
+            "wind_deg": wind.get("deg"),
+            "wind_direction": _wind_direction(wind.get("deg")),
+            "description": data["weather"][0].get("description", ""),
             "feels_like": data["main"]["feels_like"],
-            "city": data.get("name", "Bilinmiyor")
+            "city": city,
+            "sunrise": sys.get("sunrise"),
+            "sunset": sys.get("sunset"),
+            "clouds": data.get("clouds", {}).get("all"),
+            "weather_url": weather_url,
         }
     except Exception as e:
         return {
@@ -31,6 +50,13 @@ def get_weather(lat, lng):
             "pressure": 1015,
             "humidity": 60,
             "wind_speed": 5,
+            "wind_deg": None,
+            "wind_direction": "Bilinmiyor",
             "description": "Hava durumu bilgisi alınamadı",
-            "city": "Bilinmiyor"
+            "feels_like": 20,
+            "city": "Bilinmiyor",
+            "sunrise": None,
+            "sunset": None,
+            "clouds": None,
+            "weather_url": "https://openweathermap.org",
         }

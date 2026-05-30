@@ -26,7 +26,7 @@ class FishSpeciesListView(generics.ListAPIView):
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
-from .models import FishingSpot, SpotFishRelation
+from urllib.parse import quote_plus
 from .services.weather_service import get_weather
 
 
@@ -80,7 +80,29 @@ def get_fishing_advice(request, spot_id):
         av_durumu = "Zor ⚠️"
     else:
         av_durumu = "Orta 📊"
-    
+
+    def build_search_url(query):
+        return f"https://www.google.com/search?q={quote_plus(query)}"
+
+    fish_details = []
+    for rel in relations:
+        fish = rel.fish
+        bait_label = fish.bait or f"{fish.name} yem"
+        rod_label = fish.rod or "Orta güç olta takımı"
+        line_label = fish.line or "0.20 mm misina"
+        fish_details.append({
+            "id": fish.id,
+            "name": fish.name,
+            "bait": bait_label,
+            "rod": rod_label,
+            "line": line_label,
+            "best_season": fish.best_season or "Her mevsim",
+            "purchase_bait_url": build_search_url(bait_label),
+            "purchase_rod_url": build_search_url(rod_label),
+            "purchase_line_url": build_search_url(line_label),
+            "abundance": rel.abundance,
+        })
+
     advice = f"""🎣 {spot.name} - {spot.district}
 
 🌡️ Hava: {temp}°C, {weather.get('description', 'normal')}
@@ -100,5 +122,6 @@ def get_fishing_advice(request, spot_id):
         "district": spot.district,
         "weather": weather,
         "fish_species": fish_names,
+        "fish_details": fish_details,
         "advice": advice
     })

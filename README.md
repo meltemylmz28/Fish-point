@@ -1,62 +1,83 @@
 # Fish-point
 
-## Kurulum & Çalıştırma
+Fish-point, Adana çevresindeki balık meraları için Flutter frontend ve Django REST backend içeren bir yerel geliştirme projesidir.
 
-### Backend
+## Proje Yapısı
 
-1. `backend` klasörüne girin:
+- `backend/`: Django REST API, kullanıcı, sipariş ve balık noktası modelleri.
+- `frontend/`: Flutter mobil uygulama, Google Maps, konum, oturum yönetimi ve spot tavsiye ekranları.
+- `meralar.txt`: Proje için ilgili mera bilgilerini içerebilecek ek doküman.
+
+## Backend Kurulumu
+
+1. `backend` dizinine geçin:
    ```powershell
    cd "c:\Users\melte\Desktop\temiz-fish-point\backend"
    ```
-2. `.env.example` dosyasını kopyalayın ve gerçek değerlerle doldurun:
-   ```powershell
-   copy .env.example .env
-   ```
-3. Paketleri yükleyin:
+2. Sanal ortam oluşturun ve etkinleştirin (önerilir).
+3. Gerekli paketleri yükleyin:
    ```powershell
    py -3 -m pip install -r requirements.txt
    ```
-4. Veritabanını hazır hale getirin:
+4. Ortam dosyası varsa kopyalayın ve değerleri ayarlayın:
+   ```powershell
+   copy .env.example .env
+   ```
+5. Veritabanı migrasyonlarını çalıştırın:
    ```powershell
    py -3 manage.py migrate
    ```
-5. Geliştirme sunucusunu başlatın:
+6. Geliştirme sunucusunu başlatın:
    ```powershell
    py -3 manage.py runserver 0.0.0.0:8000
    ```
 
-### Frontend
+## Frontend Kurulumu
 
-1. `frontend` klasörüne girin:
-   ```bash
+1. `frontend` dizinine geçin:
+   ```powershell
    cd "c:\Users\melte\Desktop\temiz-fish-point\frontend"
    ```
-2. Paketleri güncelleyin:
-   ```bash
+2. Flutter bağımlılıklarını yükleyin:
+   ```powershell
    flutter pub get
    ```
-3. Uygulamayı çalıştırın:
-   ```bash
+3. Android cihazda çalıştırmak için (fiziksel cihazda):
+   ```powershell
+   adb reverse tcp:8000 tcp:8000
    flutter run
    ```
 
-## Sosyal Giriş (Google)
+> `frontend/lib/config.dart` içinde Android debug modu için backend adresi `http://localhost:8000` olarak ayarlanmıştır. Bu durumda `adb reverse` kullanmak gerekir.
 
-### Backend Ayarları
+## Google Maps API Anahtarı
 
-Aşağıdaki ortam değişkenini ayarlamanız gerekiyor:
+Android için Google Maps çalışması adına `frontend/android/app/build.gradle.kts` içinde `MAPS_API_KEY` manifest placeholder olarak ayarlanır.
+
+- `GOOGLE_MAPS_API_KEY` ortam değişkenini veya proje özelliğini kullanabilirsiniz.
+- Android debug cihazlarda `manifestPlaceholders` ile anahtar sağlanmışsa Flutter tarafında ekstra bir Dart define gerekmez.
+
+## OpenWeather API
+
+Backend, `backend/core/settings.py` içinde `OPENWEATHER_API_KEY` ortam değişkenini kullanarak hava verilerini OpenWeatherMap üzerinden alır.
+
+## Sosyal Giriş / Google Auth
+
+Backend içinde Google OAuth entegrasyonu varsa şu değişkene ihtiyaç duyulur:
 
 - `GOOGLE_OAUTH_CLIENT_ID`
 
-Bu değer `backend/core/settings.py` içinde okunuyor.
+Bu ayar `backend/core/settings.py` tarafından okunur.
 
-### Google
+## Çalıştırma Notları
 
-- Google Cloud Console'dan Android için OAuth Client ID oluşturun.
-- Android için paket adı ve SHA-1 sertifika parmak izini kullanın.
-- iOS için gerekli yapılandırma varsa, ilgili `Info.plist` ayarlarını ekleyin.
+- Backend yerel olarak `0.0.0.0:8000` üzerinde hizmet verir.
+- Fiziksel Android cihaz kullandığınızda `adb reverse tcp:8000 tcp:8000` gereklidir.
+- Google Maps için Android API anahtarını doğru yapılandırdığınızdan emin olun.
+- Uygulama `frontend` içinden `flutter run` ile başlatılır.
 
-## Notlar
+## Geliştirme İpuçları
 
-- Local geliştirme için backend `0.0.0.0:8000` üzerinde çalışıyor.
-- Test admin kullanıcı: `admin` / `adminpass` (güvenli değildir, değiştirin).
+- Backend değişiklik yaptıktan sonra `py -3 manage.py migrate` çalıştırın.
+- Flutter tarafında paket değişikliği sonrası `flutter pub get` yeterlidir.
+- Harita görünmüyorsa API anahtarınızı ve cihazdaki ağ yönlendirmesini kontrol edin.

@@ -1,4 +1,4 @@
-﻿import 'dart:ui';
+﻿﻿import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
         MaterialPageRoute(builder: (_) => const AdviceScreen()),
       );
     } else {
-      _showMessage('şlem başarısız oldu. Bilgilerinizi kontrol edin.');
+      _showMessage('İşlem başarısız oldu. Bilgilerinizi kontrol edin.');
     }
   }
 
