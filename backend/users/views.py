@@ -55,10 +55,17 @@ class RegisterView(generics.CreateAPIView):
         except Exception as exc:
             print('Email verification send failed:', exc)
 
-        return Response({
-            'message': 'Hesabınız oluşturuldu. Lütfen e-postanızı doğrulayın.',
+        response_data = {
             'user': UserSerializer(user).data,
-        }, status=status.HTTP_201_CREATED)
+        }
+        if user.is_active:
+            token, _ = Token.objects.get_or_create(user=user)
+            response_data['token'] = token.key
+            response_data['message'] = 'Hesabınız oluşturuldu. Giriş yapıldı.'
+        else:
+            response_data['message'] = 'Hesabınız oluşturuldu. Lütfen e-postanızı doğrulayın.'
+
+        return Response(response_data, status=status.HTTP_201_CREATED)
 
 
 class VerifyEmailView(APIView):

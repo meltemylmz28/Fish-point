@@ -30,11 +30,14 @@ class Command(BaseCommand):
                 # Mera oluştur
                 spot, created = FishingSpot.objects.get_or_create(
                     name=spot_data['mera_adi'],
+                    district=spot_data['konum']['ilce'],
+                    lat=lat,
+                    lng=lng,
                     defaults={
-                        'district': spot_data['konum']['ilce'],
-                        'lat': lat,
-                        'lng': lng,
-                        'description': f"Tip: {spot_data['konum']['tip']}\nSu: {spot_data['ekstra']['su_tipi']}\n{spot_data.get('ai_tavsiye_motoru', '')}"
+                        'description': f"Tip: {spot_data['konum']['tip']}\nSu: {spot_data['ekstra']['su_tipi']}\n{spot_data.get('ai_tavsiye_motoru', '')}",
+                        'spot_type': spot_data['konum']['tip'],
+                        'water_type': spot_data['ekstra'].get('su_tipi', ''),
+                        'ai_base_advice': spot_data.get('ai_tavsiye_motoru', ''),
                     }
                 )
                 

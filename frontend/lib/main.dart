@@ -5,23 +5,26 @@ import 'package:frontend/providers/auth_provider.dart';
 import 'package:frontend/providers/spot_provider.dart';
 import 'package:frontend/providers/cart_provider.dart';
 import 'package:frontend/providers/theme_provider.dart';
-import 'package:frontend/screens/advice_screen_fixed.dart';
+import 'package:frontend/providers/favorites_provider.dart';
 import 'package:frontend/screens/forgot_password_screen.dart';
-import 'package:frontend/screens/login_screen.dart';
+import 'package:frontend/screens/welcome_screen.dart';
 import 'package:frontend/screens/reset_password_screen.dart';
 import 'package:frontend/screens/verify_email_screen.dart';
+import 'package:frontend/screens/home/main_screen.dart';
+import 'package:frontend/config.dart';
+import 'package:frontend/theme/app_theme.dart';
 
-const Color powderPink = Color(0xFFFFD1DC);
-const Color navyBlue = Color(0xFF000080);
-
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await AppConfig.init();
   runApp(
     MultiProvider(
       providers: [
+        ChangeNotifierProvider(create: (_) => ThemeProvider()..load()),
         ChangeNotifierProvider(create: (_) => AuthProvider()),
         ChangeNotifierProvider(create: (_) => SpotProvider()),
         ChangeNotifierProvider(create: (_) => CartProvider()),
-        ChangeNotifierProvider(create: (_) => ThemeProvider()),
+        ChangeNotifierProvider(create: (_) => FavoritesProvider()),
       ],
       child: const FishPointApp(),
     ),
@@ -33,20 +36,19 @@ class FishPointApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final themeProvider = context.watch<ThemeProvider>();
+
     return MaterialApp(
-      title: 'Fish-point',
+      title: 'Fish-Point',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        scaffoldBackgroundColor: powderPink,
-        appBarTheme: const AppBarTheme(backgroundColor: navyBlue, foregroundColor: powderPink),
-        primaryColor: navyBlue,
-        useMaterial3: true,
-      ),
+      theme: AppTheme.light(),
+      darkTheme: AppTheme.dark(),
+      themeMode: themeProvider.themeMode,
       home: const AuthWrapper(),
       routes: {
-        '/login': (_) => const LoginScreen(),
+        '/login': (_) => const WelcomeScreen(),
         '/forgot-password': (_) => const ForgotPasswordScreen(),
-        '/home': (_) => const AdviceScreen(),
+        '/home': (_) => const MainScreen(),
       },
       onGenerateRoute: (settings) {
         final uri = Uri.parse(settings.name ?? '');
@@ -94,7 +96,9 @@ class _AuthWrapperState extends State<AuthWrapper> {
 
   Future<void> _checkLogin() async {
     final auth = context.read<AuthProvider>();
+    final favorites = context.read<FavoritesProvider>();
     final success = await auth.tryAutoLogin();
+    await favorites.load();
     if (!mounted) return;
     setState(() {
       _authenticated = success;
@@ -104,12 +108,15 @@ class _AuthWrapperState extends State<AuthWrapper> {
 
   @override
   Widget build(BuildContext context) {
+    final fp = context.fp;
+
     if (_loading) {
-      return const Scaffold(
-        body: Center(child: CircularProgressIndicator()),
+      return Scaffold(
+        backgroundColor: fp.scaffold,
+        body: const Center(child: CircularProgressIndicator(color: AppColors.cyan)),
       );
     }
 
-    return _authenticated ? const AdviceScreen() : const LoginScreen();
+    return _authenticated ? const MainScreen() : const WelcomeScreen();
   }
 }

@@ -59,6 +59,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Yol tarifi ve konum takibi için konumunuza ihtiyaç duyuyoruz.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Yol tarifi sırasında konumunuzu takip etmek için izin gerekiyor.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

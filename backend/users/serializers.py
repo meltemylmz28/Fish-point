@@ -66,8 +66,10 @@ class RegisterSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         validated_data.pop('password2')
         user = User.objects.create_user(**validated_data)
-        user.is_active = False
-        user.save(update_fields=['is_active'])
+        # Production'da e-posta doğrulaması gerekir; geliştirmede hemen giriş yapılabilsin.
+        if not settings.DEBUG:
+            user.is_active = False
+            user.save(update_fields=['is_active'])
         return user
 
 
@@ -76,8 +78,8 @@ class LoginSerializer(serializers.Serializer):
     password = serializers.CharField(required=True)
 
     def validate(self, attrs):
-        username = attrs.get('username')
-        password = attrs.get('password')
+        username = attrs.get('username', '').strip()
+        password = attrs.get('password', '')
 
         user = authenticate(username=username, password=password)
         if not user:
@@ -86,6 +88,14 @@ class LoginSerializer(serializers.Serializer):
                 user = authenticate(username=user_obj.username, password=password)
 
         if not user:
+            user_obj = User.objects.filter(username__iexact=username).first()
+            if not user_obj:
+                user_obj = User.objects.filter(email__iexact=username).first()
+            if user_obj and user_obj.check_password(password):
+                if not user_obj.is_active:
+                    raise serializers.ValidationError(
+                        "E-posta adresinizi doğrulamanız gerekiyor. Gelen kutunuzu kontrol edin."
+                    )
             raise serializers.ValidationError("Kullanıcı adı veya şifre hatalı.")
 
         attrs['user'] = user

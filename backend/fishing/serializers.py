@@ -5,7 +5,7 @@ from .models import FishingSpot, FishSpecies, SpotFishRelation
 class FishingSpotSerializer(serializers.ModelSerializer):
     class Meta:
         model = FishingSpot
-        fields = ['id', 'name', 'district', 'lat', 'lng', 'description']
+        fields = ['id', 'name', 'district', 'neighborhood', 'lat', 'lng', 'description', 'water_type', 'spot_type', 'ai_base_advice']
 
 
 class FishSpeciesSerializer(serializers.ModelSerializer):

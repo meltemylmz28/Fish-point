@@ -27,6 +27,8 @@ dependencies:
   url_launcher: ^6.3.0
   google_maps_flutter: ^2.5.3
   google_sign_in: ^6.1.0
+  device_info_plus: ^11.2.0
+  webview_flutter: ^4.10.0
 
 dev_dependencies:
   flutter_test:
@@ -39,3 +41,5 @@ flutter:
   assets:
     - assets/fisherman.gif
     - assets/logo.png
+    - assets/welcome_hero.png
+    - assets/app_config.json
